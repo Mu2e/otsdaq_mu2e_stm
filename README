@@ -1,10 +1,36 @@
 Mu2e Stopping Target Monitor repository
 
+####
+# check out the (empty) directory
+####
 $ cd $MRB_SOURCE
 $ mrb gitCheckout -d otsdaq_mu2e_stm ssh://p-mu2e-otsdaq-stm@cdcvs.fnal.gov/cvs/projects/mu2e-otsdaq-stm
 $ cd otsdaq_mu2e_stm
+
+
+####
+# get the directory with the heavy lifting tools in it
+####
 $ cp -rpd ../otsdaq_mu2e_calorimeter/otsdaq-mu2e-calorimeter/ .
-$ cp -rpd ../otsdaq_mu2e_calorimeter/ups/ .
-$ cp -rpd ../otsdaq_mu2e_calorimeter/CMakeLists.txt .
 $ mv otsdaq-mu2e-calorimeter otsdaq-mu2e-stm
+$ cd otsdaq-mu2e-stm/
+$ cd FEInterfaces/
+$ sed 's/Calorimeter/StoppingTargetMonitor/' CMakeLists.txt > CMakeLists.txt.stm
+$  mv CMakeLists.txt.stm CMakeLists.txt
+$ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator.h > ROCStoppingTargetMonitorEmulator.h
+$ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator_interface.cc > ROCStoppingTargetMonitorEmulator_interface.cc
+$ rm ROCCalorimeterEmulator.h 
+$ rm ROCCalorimeterEmulator_interface.cc 
+
+####
+# deal with the product dependencies to make it compile OK...
+####
+$ cp -rpd ../otsdaq_mu2e_calorimeter/CMakeLists.txt .
+$ sed 's/calorimeter/stm/' CMakeLists.txt > CMakeLists.txt.stm
+$ mv CMakeLists.txt.stm CMakeLists.txt
+$ cp -rpd ../otsdaq_mu2e_calorimeter/ups/ .
+$ cd ups/
+$ sed 's/calorimeter/stm/' product_deps > product_deps.stm
+$ mv product_deps.stm product_deps
+$ cd ..
 
