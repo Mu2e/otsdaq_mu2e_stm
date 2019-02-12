@@ -1,1 +1,10 @@
 Mu2e Stopping Target Monitor repository
+
+$ cd $MRB_SOURCE
+$ mrb gitCheckout -d otsdaq_mu2e_stm ssh://p-mu2e-otsdaq-stm@cdcvs.fnal.gov/cvs/projects/mu2e-otsdaq-stm
+$ cd otsdaq_mu2e_stm
+$ cp -rpd ../otsdaq_mu2e_calorimeter/otsdaq-mu2e-calorimeter/ .
+$ cp -rpd ../otsdaq_mu2e_calorimeter/ups/ .
+$ cp -rpd ../otsdaq_mu2e_calorimeter/CMakeLists.txt .
+$ mv otsdaq-mu2e-calorimeter otsdaq-mu2e-stm
+
