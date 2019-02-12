@@ -21,6 +21,7 @@ $ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator.h > ROCStopp
 $ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator_interface.cc > ROCStoppingTargetMonitorEmulator_interface.cc
 $ rm ROCCalorimeterEmulator.h 
 $ rm ROCCalorimeterEmulator_interface.cc 
+$ cd ../..
 
 ####
 # deal with the product dependencies to make it compile OK...
