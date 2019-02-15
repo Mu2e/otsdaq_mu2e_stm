@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<xc:Partition 	xmlns:xsi	= "http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:soapenc	= "http://schemas.xmlsoap.org/soap/encoding/"
+		xmlns:xc	= "http://xdaq.web.cern.ch/xdaq/xsd/2004/XMLConfiguration-30">
+
+	<!-- ContextUID='mainContext' sourceConfig='XDAQContextConfiguration_v2 @ 1499441274' -->
+	<xc:Context id="0" url="http://rulinux03.dhcp.fnal.gov:2015">
+
+		<!-- Application GroupID = 'mainContext' UID='Supervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::Supervisor" id="200" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libSupervisor.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='FESupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::FESupervisor" id="210" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libCoreSupervisors.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='ChatSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::ChatSupervisor" id="250" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libChat.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='ConsoleSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::ConsoleSupervisor" id="260" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libConsole.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='DataManagerSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::DataManagerSupervisor" id="310" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libCoreSupervisors.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='LogbookSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::LogbookSupervisor" id="261" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libLogbook.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='VisualSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::VisualSupervisor" id="270" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libVisualization.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='ConfigurationGUISupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::ConfigurationGUISupervisor" id="281" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libConfigurationGUI.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='ControlsDashboardSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::ControlsDashboardSupervisor" id="282" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libControlsDashboard.so</xc:Module>
+
+		<!-- Application GroupID = 'mainContext' UID='MacroMakerSupervisor' sourceConfig='XDAQApplicationConfiguration_v2 @ 1499373273' -->
+		<xc:Application class="ots::MacroMakerSupervisor" id="300" instance="1" network="local" group="daq"/>
+		<xc:Module>/home/cmstestbeam/Programming/mrbots/srcs/otsdaq_demo/Data//libMacroMaker.so</xc:Module>
+
+	</xc:Context>
+
+</xc:Partition>
+
+

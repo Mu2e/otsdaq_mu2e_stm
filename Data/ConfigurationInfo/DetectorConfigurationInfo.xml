@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigurationInfo.xsd">
+  <CONFIGURATION Name="DetectorConfiguration">    
+    <VIEW Name="DETECTOR_CONFIGURATION" Type="File,Database,DatabaseTest">
+      <COLUMN Type="UID"  		Name="Component_Name"   	StorageName="COMPONENT_NAME"   		DataType="VARCHAR2"  />
+      <COLUMN Type="Data" 		Name="Component_Type"   	StorageName="COMPONENT_TYPE"   		DataType="VARCHAR2"  />
+      <COLUMN Type="Data" 		Name="Component_Status" 	StorageName="COMPONENT_STATUS" 		DataType="VARCHAR2"  />
+      <COLUMN Type="Comment" 	Name="CommentDescription"   StorageName="COMMENT_DESCRIPTION"  	DataType="VARCHAR2"/>
+      <COLUMN Type="Author" 	Name="Author"		        StorageName="AUTHOR"  	           	DataType="VARCHAR2"		/>
+      <COLUMN Type="Timestamp" 	Name="RecordInsertionTime"  StorageName="RECORD_INSERTION_TIME" DataType="TIMESTAMP WITH TIMEZONE"/>
+    </VIEW>
+  </CONFIGURATION>
+</ROOT>

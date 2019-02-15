@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+	<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigurationInfo.xsd">
+		<CONFIGURATION Name="FEOtsUDPCCDInterfaceConfiguration">
+			<VIEW Name="FE_OTS_UDPCCD_INTERFACE_CONFIGURATION" Type="File,Database,DatabaseTest" Description="CCD%20Clocks%20is%20supposed%20to%20be%20used%20for%20register%200x3.">
+				<COLUMN Type="UID" 	 Name="InterfaceID" 	 StorageName="INTERFACE_ID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="FirmwareVersion" 	 StorageName="FIRMWARE_VERSION" 		DataType="NUMBER" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="InterfaceIPAddress" 	 StorageName="INTERFACE_IP_ADDRESS" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="InterfacePort" 	 StorageName="INTERFACE_PORT" 		DataType="NUMBER" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="HostIPAddress" 	 StorageName="HOST_IP_ADDRESS" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="HostPort" 	 StorageName="HOST_PORT" 		DataType="NUMBER" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="StreamToIPAddress" 	 StorageName="STREAM_TO_IP_ADDRESS" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="StreamToPort" 	 StorageName="STREAM_TO_PORT" 		DataType="NUMBER" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="CCDClockFrequency" 	 StorageName="CCD_CLOCK_FREQUENCY" 		DataType="NUMBER" 		DataChoices=""/>
+				<COLUMN Type="Comment" 	 Name="CommentDescription" 	 StorageName="COMMENT_DESCRIPTION" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Author" 	 Name="Author" 	 StorageName="AUTHOR" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Timestamp" 	 Name="RecordInsertionTime" 	 StorageName="RECORD_INSERTION_TIME" 		DataType="TIMESTAMP WITH TIMEZONE" 		DataChoices=""/>
+			</VIEW>
+		</CONFIGURATION>
+	</ROOT>

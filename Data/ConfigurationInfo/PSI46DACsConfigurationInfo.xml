@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+	<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigurationInfo.xsd">
+		<CONFIGURATION Name="PSI46DACsConfiguration">
+			<VIEW Name="PSI46DA_CS_CONFIGURATION" Type="File,Database,DatabaseTest">
+				<COLUMN Type="UID" 	 Name="ROCName" 	 StorageName="ROC_NAME" 		DataType="VARCHAR2"/>
+				<COLUMN Type="Data" 	 Name="VDD" 	 StorageName="VDD" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VAna" 	 StorageName="V_ANA" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VSF" 	 StorageName="VSF" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VComp" 	 StorageName="V_COMP" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VLeak" 	 StorageName="V_LEAK" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VRgPr" 	 StorageName="V_RG_PR" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VWllPr" 	 StorageName="V_WLL_PR" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VRgSh" 	 StorageName="V_RG_SH" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VWllSh" 	 StorageName="V_WLL_SH" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VHldDel" 	 StorageName="V_HLD_DEL" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VTrim" 	 StorageName="V_TRIM" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VCThr" 	 StorageName="VC_THR" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIBiasBus" 	 StorageName="VI_BIAS_BUS" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIBiasSf" 	 StorageName="VI_BIAS_SF" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VOffsetOp" 	 StorageName="V_OFFSET_OP" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VBiasOp" 	 StorageName="V_BIAS_OP" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VOffsetRo" 	 StorageName="V_OFFSET_RO" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIOn" 	 StorageName="VI_ON" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIBiasPh" 	 StorageName="VI_BIAS_PH" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIBiasDac" 	 StorageName="VI_BIAS_DAC" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIBiasRoc" 	 StorageName="VI_BIAS_ROC" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VIColor" 	 StorageName="VI_COLOR" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VNPix" 	 StorageName="VN_PIX" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VSumCol" 	 StorageName="V_SUM_COL" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="VCal" 	 StorageName="V_CAL" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="CalDel" 	 StorageName="CAL_DEL" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="TempRange" 	 StorageName="TEMP_RANGE" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="WBC" 	 StorageName="WBC" 		DataType="NUMBER"/>
+				<COLUMN Type="Data" 	 Name="ChipContReg" 	 StorageName="CHIP_CONT_REG" 		DataType="NUMBER"/>
+				<COLUMN Type="Comment" 	 Name="CommentDescription" 	 StorageName="COMMENT_DESCRIPTION" 		DataType="VARCHAR2"/>
+				<COLUMN Type="Author" 	 Name="Author" 	 StorageName="AUTHOR" 		DataType="VARCHAR2"/>
+				<COLUMN Type="Timestamp" 	 Name="RecordInsertionTime" 	 StorageName="RECORD_INSERTION_TIME" 		DataType="TIMESTAMP WITH TIMEZONE"/>
+			</VIEW>
+		</CONFIGURATION>
+	</ROOT>

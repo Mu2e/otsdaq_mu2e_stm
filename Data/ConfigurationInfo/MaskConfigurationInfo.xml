@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigurationInfo.xsd">
+  <CONFIGURATION Name="MaskConfiguration">    
+    <VIEW Name="MASK_CONFIGURATION" Type="File,Database,DatabaseTest">
+      <COLUMN Type="UID"  		Name="ROCName"  			StorageName="ROC_NAME" 				DataType="VARCHAR2" />
+      <COLUMN Type="Data" 		Name="KillMask" 			StorageName="KILL_MASK" 			DataType="VARCHAR2" />
+      <COLUMN Type="Comment" 	Name="CommentDescription"   StorageName="COMMENT_DESCRIPTION"  	DataType="VARCHAR2"/>
+      <COLUMN Type="Author" 	Name="Author"		        StorageName="AUTHOR"  	           	DataType="VARCHAR2"		/>
+      <COLUMN Type="Timestamp" 	Name="RecordInsertionTime"  StorageName="RECORD_INSERTION_TIME" DataType="TIMESTAMP WITH TIMEZONE"/>
+    </VIEW>
+  </CONFIGURATION>
+</ROOT>

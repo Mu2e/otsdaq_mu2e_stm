@@ -1,0 +1,142 @@
+{
+"document" : {
+"data" : {
+"NAME" : "FE_OTS_UDPCCD_INTERFACE_CONFIGURATION",
+"COMMENT" : "new CCD table with clock register",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1489519057,
+"COL_TYPES" : {
+"INTERFACE_ID" : "VARCHAR2",
+"FIRMWARE_VERSION" : "NUMBER",
+"INTERFACE_IP_ADDRESS" : "VARCHAR2",
+"INTERFACE_PORT" : "NUMBER",
+"HOST_IP_ADDRESS" : "VARCHAR2",
+"HOST_PORT" : "NUMBER",
+"STREAM_TO_IP_ADDRESS" : "VARCHAR2",
+"STREAM_TO_PORT" : "NUMBER",
+"CCD_CLOCK_FREQUENCY" : "NUMBER",
+"COMMENT_DESCRIPTION" : "VARCHAR2",
+"AUTHOR" : "VARCHAR2",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"INTERFACE_ID" : "OtsInterface0",
+"FIRMWARE_VERSION" : "-1",
+"INTERFACE_IP_ADDRESS" : "127.0.0.1",
+"INTERFACE_PORT" : "4000",
+"HOST_IP_ADDRESS" : "127.0.0.1",
+"HOST_PORT" : "4001",
+"STREAM_TO_IP_ADDRESS" : "127.0.0.1",
+"STREAM_TO_PORT" : "4121",
+"CCD_CLOCK_FREQUENCY" : "505",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1489518403"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "Wed Jul 12 09:26:58 2017",
+"rawdata" : [
+
+]
+},
+"version" : "1",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+},
+{
+"name" : "defaultConfig_v1",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "Wed Jul 12 09:26:58 2017",
+"value" : {
+"name" : "notprovided",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "Wed Jul 12 09:26:58 2017",
+"value" : {
+"name" : "1",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "Wed Jul 12 09:26:58 2017",
+"value" : {
+"name" : "FEOtsUDPCCDInterfaceConfiguration",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "Wed Jul 12 09:26:58 2017",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "Wed Jul 12 09:26:58 2017",
+"value" : {
+"name" : "defaultConfig_v1",
+"assigned" : "Wed Jul 12 09:26:58 2017"
+}
+}
+],
+"created" : "Wed Jul 12 09:26:58 2017"
+},
+"_id" : {
+"$oid" : "bd4c420a206242298eec484f"
+},
+"collection" : "FEOtsUDPCCDInterfaceConfiguration",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+	<ROOT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConfigurationInfo.xsd">
+		<CONFIGURATION Name="ARTDAQAggregatorConfiguration">
+			<VIEW Name="ARTDAQ_AGGREGATOR_CONFIGURATION" Type="File,Database,DatabaseTest" Description="No%20description.">
+				<COLUMN Type="UID" 	 Name="SupervisorUID" 	 StorageName="SUPERVISOR_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="OnOff" 	 Name="Status" 	 StorageName="STATUS" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Data" 	 Name="ConfigurationString" 	 StorageName="CONFIGURATION_STRING" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-services" 	 Name="servicesLink" 	 StorageName="SERVICES_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQAggregatorServicesConfiguration"/>
+				<COLUMN Type="ChildLinkUID-services" 	 Name="servicesLinkUID" 	 StorageName="SERVICES_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-daq" 	 Name="daqLink" 	 StorageName="DAQ_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQAggregatorDaqConfiguration"/>
+				<COLUMN Type="ChildLinkUID-daq" 	 Name="daqLinkUID" 	 StorageName="DAQ_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-outputs" 	 Name="outputsLink" 	 StorageName="OUTPUTS_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQOutputConfiguration"/>
+				<COLUMN Type="ChildLinkGroupID-outputs" 	 Name="outputsLinkUID" 	 StorageName="OUTPUTS_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-physics" 	 Name="physicsLink" 	 StorageName="PHYSICS_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQPhysicsConfiguration"/>
+				<COLUMN Type="ChildLinkUID-physics" 	 Name="physicsLinkUID" 	 StorageName="PHYSICS_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-source" 	 Name="sourceLink" 	 StorageName="SOURCE_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQAggregatorSourceConfiguration"/>
+				<COLUMN Type="ChildLinkUID-source" 	 Name="sourceLinkUID" 	 StorageName="SOURCE_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="ChildLink-aggregatorProcessName" 	 Name="ARTDAQGlobalConfigurationForProcessNameLink" 	 StorageName="ARTDAQ_GLOBAL_CONFIGURATION_FOR_PROCESS_NAME_LINK" 		DataType="VARCHAR2" 		DataChoices="arbitraryBool=0,ARTDAQGlobalConfiguration"/>
+				<COLUMN Type="ChildLinkUID-aggregatorProcessName" 	 Name="ARTDAQGlobalConfigurationForProcessNameLinkUID" 	 StorageName="ARTDAQ_GLOBAL_CONFIGURATION_FOR_PROCESS_NAME_LINK_UID" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Comment" 	 Name="CommentDescription" 	 StorageName="COMMENT_DESCRIPTION" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Author" 	 Name="Author" 	 StorageName="AUTHOR" 		DataType="VARCHAR2" 		DataChoices=""/>
+				<COLUMN Type="Timestamp" 	 Name="RecordInsertionTime" 	 StorageName="RECORD_INSERTION_TIME" 		DataType="TIMESTAMP WITH TIMEZONE" 		DataChoices=""/>
+			</VIEW>
+		</CONFIGURATION>
+	</ROOT>
