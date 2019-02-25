@@ -94,67 +94,6 @@ void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter() {
 }
 
 //==================================================================================================
-void ROCStoppingTargetMonitorInterface::highRateCheck(void) {
-
-  __FE_MCOUT__("Starting the high rate check... " << __E__);
-
-  std::thread(
-      [](ROCStoppingTargetMonitorInterface *roc) {
-        ROCStoppingTargetMonitorInterface::highRateCheckThread(roc);
-      },
-      this)
-      .detach();
-
-  __FE_MCOUT__("Thread launched..." << __E__);
-}
-
-//==================================================================================================
-void ROCStoppingTargetMonitorInterface::highRateCheckThread(
-    ROCStoppingTargetMonitorInterface *roc) try {
-  __MCOUT__(roc->interfaceUID_ << "Starting the high rate check... " << __E__);
-  srand(time(NULL));
-
-  int r;
-  unsigned int val;
-  int loops = 10 * 10000;
-  int cnt = 0;
-  int cnts[] = {0, 0};
-
-  unsigned int correct[] = {4860, 10};
-
-  for (int i = 0; i < loops; i++)
-    for (int j = 0; j < 2; j++) {
-
-      r = rand() % 100;
-      __MCOUT__(roc->interfaceUID_ << i << "\t of " << loops << "\tx " << r
-                                   << " :\t read register " << 6 + j << __E__);
-
-      for (int rr = 0; rr < r; rr++) {
-
-        ++cnt;
-        ++cnts[j];
-        val = roc->readRegister(6 + j);
-        if (val != correct[j]) {
-          __SS__ << roc->interfaceUID_ << i << "\tx " << r << " :\t "
-                 << "read register " << 6 + j << ". Mismatch on read " << val
-                 << " vs " << correct[j] << ". Read failed on read number "
-                 << cnt << __E__;
-          __MOUT__ << ss.str();
-          __SS_THROW__;
-        }
-      }
-    }
-
-  __MCOUT__(roc->interfaceUID_
-            << "Completed high rate check. Number of reads: " << cnt
-            << ", reg6cnt=" << cnts[0] << ", reg7cnt=" << cnts[1] << __E__);
-} catch (...) {
-  __SS__ << roc->interfaceUID_ << "Error caught. Check printouts!" << __E__;
-  __MCOUT__(ss.str());
-  //__FE_SS_THROW__;
-}
-
-//==================================================================================================
 void ROCStoppingTargetMonitorInterface::configure(void) try {
   __MCOUT_INFO__(".... do nothing for STM ROC... ");
 
@@ -165,7 +104,7 @@ void ROCStoppingTargetMonitorInterface::configure(void) try {
   // setup needToResetAlignment using rising edge of register 22
   // (i.e., force synchronization of ROC clock with 40MHz system clock)
   //__MCOUT_INFO__("......... setup to synchronize ROC clock with 40 MHz clock
-  //edge" << __E__);  this->writeRegister(22,0);  this->writeRegister(22,1);
+  // edge" << __E__);  this->writeRegister(22,0);  this->writeRegister(22,1);
 
   // this->writeDelay(delay_);
   // usleep(100);

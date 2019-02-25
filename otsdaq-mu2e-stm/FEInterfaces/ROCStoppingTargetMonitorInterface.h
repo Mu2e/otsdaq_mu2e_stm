@@ -33,8 +33,8 @@ public:
                                 unsigned data_to_write) override;
   virtual int readROCRegister(unsigned address) override;
   virtual void writeEmulatorRegister(unsigned address,
-                                     unsigned data_to_write) override {}
-  virtual int readEmulatorRegister(unsigned address) override { return -1; }
+                                     unsigned data_to_write) override;
+  virtual int readEmulatorRegister(unsigned address) override;
 
   // specific ROC functions
   virtual int readTimestamp() override;

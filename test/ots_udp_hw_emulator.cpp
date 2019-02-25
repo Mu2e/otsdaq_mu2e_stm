@@ -231,7 +231,7 @@ int main(int argc, char **argv) {
       //				if(i%8==0) __COUT__ << "\t" << i << " "
       //<< std::endl;
       //				__PRINTF__("%2.2X", (unsigned
-      //char)buff[handlerIndex + i]);
+      // char)buff[handlerIndex + i]);
       //				//__COUT__ << std::hex << std::setw(2)
       //<< (int)(unsigned char)buff[i] << std::dec;
       //			}
@@ -444,7 +444,7 @@ int main(int argc, char **argv) {
       if ((int)dataEnabled) {
         // generate data
         //__COUT__ << "[" << __LINE__ << "]Count? " << count << " rate: " <<
-        //data_gen_rate << " counter: " << data_gen_cnt << endl;
+        // data_gen_rate << " counter: " << data_gen_cnt << endl;
         if (count % data_gen_rate == 0 && // if delayed enough for proper rate
             data_gen_cnt != 0)            // still packets to send
         {
@@ -469,7 +469,7 @@ int main(int argc, char **argv) {
           //	    			std::string data(buff,packetSz);
           //	    			unsigned long long value;
           //	    			memcpy((void *)&value, (void *)
-          //data.substr(2).data(),8); //make data counter
+          // data.substr(2).data(),8); //make data counter
           //	    			__COUT__ << value << std::endl;
 
           if ((numberOfBytes = sendto(sendSockfd, buff, packetSz, 0, p->ai_addr,

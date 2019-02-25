@@ -69,7 +69,7 @@ void DemoDQMHistosConsumer::fastRead(void) {
     return;
   }
   //__COUT__ << DataProcessor::processorUID_ << " UID: " <<
-  //supervisorApplicationUID_ << std::endl;
+  // supervisorApplicationUID_ << std::endl;
 
   // HW emulator
   //	 Burst Type | Sequence | 8B data
@@ -89,7 +89,7 @@ void DemoDQMHistosConsumer::slowRead(void) {
     return;
   }
   //__COUT__ << DataProcessor::processorUID_ << " UID: " <<
-  //supervisorApplicationUID_ << std::endl;  DQMHistos::fill(data_,header_);
+  // supervisorApplicationUID_ << std::endl;  DQMHistos::fill(data_,header_);
 }
 
 DEFINE_OTS_PROCESSOR(DemoDQMHistosConsumer)

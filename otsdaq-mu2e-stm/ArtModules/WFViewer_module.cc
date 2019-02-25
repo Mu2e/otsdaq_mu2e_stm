@@ -152,8 +152,8 @@ double ots::WFViewer::calcmean(const float *data) {
             << " 3=" << data[15999] << std::endl
             << std::endl;
   //"Hex[0]:" << std::hex << lp[0] << " [1]:" << std::hex << lp[1] << " [2]:" <<
-  //std::hex << lp[2] << " [3]:" << std::hex << lp[3] << " [4]:" << std::hex <<
-  //lp[4] << std::endl << std::endl << std::endl;
+  // std::hex << lp[2] << " [3]:" << std::hex << lp[3] << " [4]:" << std::hex <<
+  // lp[4] << std::endl << std::endl << std::endl;
   return mean;
 }
 
@@ -181,7 +181,8 @@ void ots::WFViewer::analyze(art::Event const &e) {
     //    }
 
     // std::cout << __COUT_HDR_FL__ << "WFViewer: There are " <<
-    // (*fragments_with_label).size() << " fragments in this event" << std::endl;
+    // (*fragments_with_label).size() << " fragments in this event" <<
+    // std::endl;
 
     for (auto frag : *fragments_with_label) {
       fragments.emplace_back(frag);

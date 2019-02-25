@@ -126,7 +126,7 @@ void EpicsInterface::unsubscribe(std::string pvName) {
 }
 //------------------------------------------------------------------------------------------------------------
 //--------------------------------------PRIVATE
-//FUNCTION--------------------------------------
+// FUNCTION--------------------------------------
 //------------------------------------------------------------------------------------------------------------
 void EpicsInterface::eventCallback(struct event_handler_args eha) {
   chid chid = eha.chid;
@@ -790,7 +790,7 @@ std::array<std::string, 9> EpicsInterface::getSettings(std::string pvName) {
         //					sprintf(&lowerControlLimit[0],"%u",set->lower_ctrl_limit);
 
         //					std::string units             =
-        //set->units;
+        // set->units;
         //					std::string upperDisplayLimit
         //(reinterpret_cast<char*>(set->upper_disp_limit   ));
         //					std::string lowerDisplayLimit

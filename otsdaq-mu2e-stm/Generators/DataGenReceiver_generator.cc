@@ -90,7 +90,7 @@ void ots::DataGenReceiver::ProcessData_(artdaq::FragmentPtrs &frags) {
   TLOG(TLVL_INFO, "DataGenReceiver")
       << "Starting DataGenReceiver Packet Processing Loop" << std::endl;
   //	for( auto packet = packetBuffers_.begin(); packet !=
-  //packetBuffers_.end(); ++packet ) {
+  // packetBuffers_.end(); ++packet ) {
 
   std::size_t initial_payload_size = 0;
 
