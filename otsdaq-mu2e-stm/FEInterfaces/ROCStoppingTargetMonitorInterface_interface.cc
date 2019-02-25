@@ -138,7 +138,7 @@ try
 
 	int r;
 	unsigned int val;
-	int loops = 10*1000;
+	int loops = 10*10000;
 	int cnt = 0;	
 	int cnts[] = {0,0};
 	
@@ -185,55 +185,56 @@ catch(...)
 void ROCStoppingTargetMonitorInterface::configure(void)
 try
 {
-	
+	__MCOUT_INFO__(".... do nothing for STM ROC... ");
+	    
 	// __MCOUT_INFO__("......... Clear DCS FIFOs" << __E__);
 	// this->writeRegister(0,1);
 	// this->writeRegister(0,0);
 	
 	//setup needToResetAlignment using rising edge of register 22 
-	// (i.e., force synchronization of ROC clock with 40MHz system clock)
-	__MCOUT_INFO__("......... setup to synchronize ROC clock with 40 MHz clock edge" << __E__);
-	this->writeRegister(22,0);
-	this->writeRegister(22,1);
+	// (i.e., force synchronization of ROC clock with 40MHz system clock)        
+	//__MCOUT_INFO__("......... setup to synchronize ROC clock with 40 MHz clock edge" << __E__);
+	//this->writeRegister(22,0);
+	//this->writeRegister(22,1);
 		
-	this->writeDelay(delay_);
-	usleep(100);
+	//this->writeDelay(delay_);
+	//usleep(100);
 	
-	__MCOUT_INFO__ ("........." << " Set delay = " << delay_ << ", readback = " << this->readDelay() << " ... ");
+	//__MCOUT_INFO__ ("........." << " Set delay = " << delay_ << ", readback = " << this->readDelay() << " ... ");
 
 	
-	__FE_COUT__ << "Debugging ROC-DCS" << __E__;
+	//__FE_COUT__ << "Debugging ROC-DCS" << __E__;
 	
-	unsigned int val;
+	//unsigned int val;
 	
 	// read 6 should read back 0x12fc
-	for (int i = 0; i<1; i++) 
-	{	
-		val = this->readRegister(6);
+	//for (int i = 0; i<1; i++) 
+	//{	
+	//	val = this->readRegister(6);
+	//
+	//	//__MCOUT_INFO__(i << " read register 6 = " << val << __E__);		
+	//	if(val != 4860)
+	//	{
+	//		__FE_SS__ << "Bad read not 4860! val = " << val << __E__;
+	//		__FE_SS_THROW__;
+	//	}
+	//	
+	//	val = this->readDelay();
+	//	//__MCOUT_INFO__(i << " read register 7 = " << val << __E__);
+	//	if(val != delay_)
+	//	{
+	//		__FE_SS__ << "Bad read not " << delay_ << "! val = " << val << __E__;
+	//		__FE_SS_THROW__;
+	//	}
+	//}
 	
-		//__MCOUT_INFO__(i << " read register 6 = " << val << __E__);		
-		if(val != 4860)
-		{
-			__FE_SS__ << "Bad read not 4860! val = " << val << __E__;
-			__FE_SS_THROW__;
-		}
-		
-		val = this->readDelay();
-		//__MCOUT_INFO__(i << " read register 7 = " << val << __E__);
-		if(val != delay_)
-		{
-			__FE_SS__ << "Bad read not " << delay_ << "! val = " << val << __E__;
-			__FE_SS_THROW__;
-		}
-	}
-	
-	if(0) //random intense check
-	{
-		highRateCheck();
-	}
+	//if(0) //random intense check
+	//{
+	//	highRateCheck();
+	//}
 
-	__MCOUT_INFO__ ("......... reset DTC link loss counter ... ");
-	resetDTCLinkLossCounter();
+	//__MCOUT_INFO__ ("......... reset DTC link loss counter ... ");
+	//resetDTCLinkLossCounter();
 	
 }
 catch(const std::runtime_error& e)
