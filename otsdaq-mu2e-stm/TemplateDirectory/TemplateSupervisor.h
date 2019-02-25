@@ -21,21 +21,19 @@
 #include <map>
 #include <string>
 
-namespace ots
-{
-class TemplateSupervisor : public xdaq::Application, public SOAPMessenger
-{
-  public:
-	XDAQ_INSTANTIATOR ();
+namespace ots {
+class TemplateSupervisor : public xdaq::Application, public SOAPMessenger {
+public:
+  XDAQ_INSTANTIATOR();
 
-	TemplateSupervisor (xdaq::ApplicationStub* s);
-	virtual ~TemplateSupervisor (void);
-	void init (void);
-	void destroy (void);
-	void Default (xgi::Input* in, xgi::Output* out);
+  TemplateSupervisor(xdaq::ApplicationStub *s);
+  virtual ~TemplateSupervisor(void);
+  void init(void);
+  void destroy(void);
+  void Default(xgi::Input *in, xgi::Output *out);
 
-  private:
+private:
 };
-}
+} // namespace ots
 
 #endif

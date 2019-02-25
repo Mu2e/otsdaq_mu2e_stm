@@ -25,40 +25,39 @@
 #include <list>
 #include <queue>
 
-namespace ots
-{
-class DataGenReceiver : public ots::DataConsumer, public artdaq::CommandableFragmentGenerator
-{
-  public:
-	explicit DataGenReceiver (fhicl::ParameterSet const& ps);
+namespace ots {
+class DataGenReceiver : public ots::DataConsumer,
+                        public artdaq::CommandableFragmentGenerator {
+public:
+  explicit DataGenReceiver(fhicl::ParameterSet const &ps);
 
-	bool getNext_ (artdaq::FragmentPtrs& output) override;
+  bool getNext_(artdaq::FragmentPtrs &output) override;
 
-	void startProcessingData (std::string runNumber) { ; }
-	void stopProcessingData (void) { ; }
-	void resumeProcessingData (void) { ; }
-	void pauseProcessingData (void) { ; }
+  void startProcessingData(std::string runNumber) { ; }
+  void stopProcessingData(void) { ; }
+  void resumeProcessingData(void) { ; }
+  void pauseProcessingData(void) { ; }
 
-	void         start () override;
-	virtual void stop () override;
-	virtual void stopNoMutex () override;
+  void start() override;
+  virtual void stop() override;
+  virtual void stopNoMutex() override;
 
-  private:
-	bool        workLoopThread (toolbox::task::WorkLoop* workLoop) { return false; }
-	void        ProcessData_ (artdaq::FragmentPtrs& frags);
-	std::string buffer_;
+private:
+  bool workLoopThread(toolbox::task::WorkLoop *workLoop) { return false; }
+  void ProcessData_(artdaq::FragmentPtrs &frags);
+  std::string buffer_;
 
-	// FHiCL-configurable variables. Note that the C++ variable names
-	// are the FHiCL variable names with a "_" appended
-	bool                                           rawOutput_;
-	std::string                                    rawPath_;
-	int                                            dataport_;
-	std::string                                    ip_;
-	uint8_t                                        expectedPacketNumber_;
-	bool                                           sendCommands_;
-	double                                         fragmentWindow_;
-	std::chrono::high_resolution_clock::time_point lastFrag_;
+  // FHiCL-configurable variables. Note that the C++ variable names
+  // are the FHiCL variable names with a "_" appended
+  bool rawOutput_;
+  std::string rawPath_;
+  int dataport_;
+  std::string ip_;
+  uint8_t expectedPacketNumber_;
+  bool sendCommands_;
+  double fragmentWindow_;
+  std::chrono::high_resolution_clock::time_point lastFrag_;
 };
-}
+} // namespace ots
 
 #endif /* artdaq_demo_Generators_ToySimulator_hh */
