@@ -35,6 +35,8 @@ void ROCStoppingTargetMonitorInterface::writeROCRegister(
               << linkID_ << ", address = " << address
               << ", write data = " << data_to_write << __E__;
 
+  thisDTC_->WriteROCRegister(linkID_, address, data_to_write);
+
   return;
 }
 
@@ -44,7 +46,20 @@ int ROCStoppingTargetMonitorInterface::readROCRegister(unsigned address) {
   __FE_COUT__ << "Calling read ROC register: link number " << std::dec
               << linkID_ << ", address = " << address << __E__;
 
-  return -1;
+  int read_data = 0;
+
+  try
+  {
+  read_data = thisDTC_->ReadROCRegister(linkID_, address, 10);
+  }
+  catch(...)
+  {
+  __COUT__ << "DTC failed DCS read" << __E__;	
+  read_data = -999;
+  }
+
+  return read_data;
+
 }
 
 //============================================================================================
@@ -95,7 +110,21 @@ void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter() {
 
 //==================================================================================================
 void ROCStoppingTargetMonitorInterface::configure(void) try {
-  __MCOUT_INFO__(".... do nothing for STM ROC... ");
+  //__MCOUT_INFO__(".... do nothing for STM ROC... am I here? ");
+
+  this->writeRegister(0,1);
+  __MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
+
+  this->writeRegister(1,2);
+  __MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
+
+  this->writeRegister(2,3);
+  __MCOUT_INFO__("... STM ROC Register 2, Write 3, Read " << this->readRegister(2) << __E__);
+
+  this->writeRegister(3,4);
+  __MCOUT_INFO__("... STM ROC Register 3, Write 4, Read " << this->readRegister(3) << __E__);
+
+
 
   // __MCOUT_INFO__("......... Clear DCS FIFOs" << __E__);
   // this->writeRegister(0,1);
