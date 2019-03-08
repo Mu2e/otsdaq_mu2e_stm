@@ -16,9 +16,24 @@ ROCStoppingTargetMonitorInterface::ROCStoppingTargetMonitorInterface(
                         theConfigurationPath) {
   INIT_MF("ROCStoppingTargetMonitorInterface");
 
-  __MCOUT_INFO__("ROCStoppingTargetMonitorInterface instantiated with link: "
-                 << linkID_ << " and EventWindowDelayOffset = " << delay_
-                 << __E__);
+  	__MCOUT_INFO__("ROCStoppingTargetMonitorInterface instantiated with link: "
+					<< linkID_ << " and EventWindowDelayOffset = " << delay_
+					<< __E__);
+
+	ConfigurationTree rocTypeLink =
+		 Configurable::getSelfNode().getNode("ROCTypeLinkTable");
+
+
+	STMParameter_1_ = rocTypeLink.getNode("STMNumberParam1").getValue<int>();
+		
+	STMParameter_2_ = rocTypeLink.getNode("STMTrueFalseParam2").getValue<bool>();
+				
+	//std::string STMParameter_3 = rocTypeLink.getNode("STMMustBeUniqueParam1").getValue<std::string>();
+        
+        __FE_COUTV__(STMParameter_1_);
+        __FE_COUTV__(STMParameter_2_);
+    //    __FE_COUTV__(STMParameter_3);                                
+                 
 }
 
 //==========================================================================================
@@ -110,19 +125,20 @@ void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter() {
 
 //==================================================================================================
 void ROCStoppingTargetMonitorInterface::configure(void) try {
-  //__MCOUT_INFO__(".... do nothing for STM ROC... am I here? ");
+  __MCOUT_INFO__(".... STM parameter 1 = " << STMParameter_1_);
+  __MCOUT_INFO__(".... STM parameter 2 = " << STMParameter_2_);
 
-  this->writeRegister(0,1);
-  __MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
+  //this->writeRegister(0,1);
+  //__MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
 
-  this->writeRegister(1,2);
-  __MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
+  //this->writeRegister(1,2);
+  //__MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
 
-  this->writeRegister(2,3);
-  __MCOUT_INFO__("... STM ROC Register 2, Write 3, Read " << this->readRegister(2) << __E__);
+  //this->writeRegister(2,3);
+  //__MCOUT_INFO__("... STM ROC Register 2, Write 3, Read " << this->readRegister(2) << __E__);
 
-  this->writeRegister(3,4);
-  __MCOUT_INFO__("... STM ROC Register 3, Write 4, Read " << this->readRegister(3) << __E__);
+  //this->writeRegister(3,4);
+  //__MCOUT_INFO__("... STM ROC Register 3, Write 4, Read " << this->readRegister(3) << __E__);
 
 
 

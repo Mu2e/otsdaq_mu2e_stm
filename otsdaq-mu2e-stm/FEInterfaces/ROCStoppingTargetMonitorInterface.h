@@ -43,6 +43,10 @@ public:
 
   virtual int readDTCLinkLossCounter() override;
   virtual void resetDTCLinkLossCounter() override;
+  
+  private:
+  unsigned int STMParameter_1_;
+  bool STMParameter_2_;
 };
 
 } // namespace ots
