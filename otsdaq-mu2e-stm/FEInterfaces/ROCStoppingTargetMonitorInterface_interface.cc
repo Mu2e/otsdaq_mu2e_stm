@@ -128,8 +128,8 @@ void ROCStoppingTargetMonitorInterface::configure(void) try {
   __MCOUT_INFO__(".... STM parameter 1 = " << STMParameter_1_);
   __MCOUT_INFO__(".... STM parameter 2 = " << STMParameter_2_);
 
-  //this->writeRegister(0,1);
-  //__MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
+  this->writeRegister(0,1);
+  __MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
 
   //this->writeRegister(1,2);
   //__MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
