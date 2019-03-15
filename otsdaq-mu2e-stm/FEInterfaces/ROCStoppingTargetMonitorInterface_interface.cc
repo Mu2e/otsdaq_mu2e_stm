@@ -24,9 +24,9 @@ ROCStoppingTargetMonitorInterface::ROCStoppingTargetMonitorInterface(
 		 Configurable::getSelfNode().getNode("ROCTypeLinkTable");
 
 
-	STMParameter_1_ = rocTypeLink.getNode("STMNumberParam1").getValue<int>();
+	STMParameter_1_ = rocTypeLink.getNode("NumberParam1").getValue<int>();
 		
-	STMParameter_2_ = rocTypeLink.getNode("STMTrueFalseParam2").getValue<bool>();
+	STMParameter_2_ = rocTypeLink.getNode("TrueFalseParam2").getValue<bool>();
 				
 	//std::string STMParameter_3 = rocTypeLink.getNode("STMMustBeUniqueParam1").getValue<std::string>();
         
