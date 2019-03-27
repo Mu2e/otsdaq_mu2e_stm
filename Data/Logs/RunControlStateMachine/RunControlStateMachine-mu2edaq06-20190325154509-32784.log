@@ -1,0 +1,142 @@
+%MSG-i configureMessageFacility:  Early 25-Mar-2019 15:45:09 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  DAQ 25-Mar-2019 15:45:09 CDT Booted TCPConnect.cc:334
+Resolving host 192.168.157.6, on port 30000
+%MSG
+%MSG-i _TCPConnect:  DAQ 25-Mar-2019 15:45:09 CDT Booted TCPConnect.cc:241
+Resolving ip mu2edaq06.fnal.gov
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:10 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i WebUsers:  DAQ 25-Mar-2019 15:45:11 CDT Booted WebUsers.cc:3050
+otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [3050]	User 'admin' has locked out the system!
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:12 CDT Booted configureMessageFacility.cc:286
+Message Facility Application GatewaySupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/GatewaySupervisor" pattern:"GatewaySupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:12 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ChatSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ChatSupervisor" pattern:"ChatSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:14 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:15 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:15 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:15 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ConsoleSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConsoleSupervisor" pattern:"ConsoleSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i Console:  Early 25-Mar-2019 15:45:15 CDT pre-events ConsoleSupervisor.cc:171
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [171]	INFO messages look like this.
+%MSG
+%MSG-w Console:  Early 25-Mar-2019 15:45:15 CDT pre-events ConsoleSupervisor.cc:172
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [172]	WARNING messages look like this.
+%MSG
+%MSG-e Console:  Early 25-Mar-2019 15:45:15 CDT pre-events ConsoleSupervisor.cc:173
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [173]	ERROR messages look like this.
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:15 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application LogbookSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/LogbookSupervisor" pattern:"LogbookSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:17 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:18 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:18 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:18 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ConfigurationGUI configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConfigurationGUI" pattern:"ConfigurationGUI-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:19 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:20 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:20 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:20 CDT Booted configureMessageFacility.cc:286
+Message Facility Application MacroMaker configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/MacroMaker" pattern:"MacroMaker-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:21 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:22 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 25-Mar-2019 15:45:22 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 25-Mar-2019 15:45:53 CDT pre-events ConfigurationManagerRW.cc:497
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [497]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 25-Mar-2019 15:45:53 CDT pre-events ConfigurationManagerRW.cc:517
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [517]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 25-Mar-2019 15:45:53 CDT pre-events ConfigurationManagerRW.cc:523
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [523]	Active Backbone table group: GroupAliasTreeEditWizBackbone(72)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 25-Mar-2019 15:45:53 CDT pre-events ConfigurationManagerRW.cc:529
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [529]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 25-Mar-2019 15:45:53 CDT pre-events ConfigurationManagerRW.cc:535
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [535]	Active Configuration table group: defaultConfig(140)
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:47:41 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'runFEMacro' ERROR encountered: :MacroMakerSupervisor:MacroMakerSupervisor:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [1995] Unknown error processing FE communication request.
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:48:28 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'runFEMacro' ERROR encountered: :MacroMakerSupervisor:MacroMakerSupervisor:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [1995] Unknown error processing FE communication request.
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:50:39 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'runFEMacro' ERROR encountered: :MacroMakerSupervisor:MacroMakerSupervisor:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [1995] Unknown error processing FE communication request.
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:55:30 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'runFEMacro' ERROR encountered: :MacroMakerSupervisor:MacroMakerSupervisor:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [1995] Unknown error processing FE communication request.
+%MSG
+%MSG-e GatewaySupervisor:  Early 25-Mar-2019 15:55:36 CDT pre-events GatewaySupervisor.cc:1738
+otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [1738]	:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [1729]	Error! Gateway Supervisor can NOT Halt Supervisor instance = 'FESupervisorDTC0' [LID=311] in Context 'ContextDTC0' [URL=http://mu2edaq05.fnal.gov:2017].
+
+Xoap message failure. Did the target Supervisor crash? Try re-initializing or restarting otsdaq.
+%MSG
+%MSG-e GatewaySupervisor:  Early 25-Mar-2019 15:55:38 CDT pre-events GatewaySupervisor.cc:1738
+otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [1738]	:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [1729]	Error! Gateway Supervisor can NOT Error Supervisor instance = 'FESupervisorDTC0' [LID=311] in Context 'ContextDTC0' [URL=http://mu2edaq05.fnal.gov:2017].
+
+Xoap message failure. Did the target Supervisor crash? Try re-initializing or restarting otsdaq.
+%MSG
+%MSG-e GatewaySupervisor:  Early 25-Mar-2019 15:55:38 CDT pre-events GatewaySupervisor.cc:830
+otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [830]	:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [827]	Failure to send Workloop transition command 'Halt!' An error response 'Fault' was received.
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:55:42 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'getFEMacroList' ERROR encountered: :MacroMaker:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [126] Unknown error occurred handling request &apos;getFEMacroList!&apos;
+%MSG
+%MSG-e MacroMakerSupervisor-MacroMakerSupervisor:  Early  25-Mar-2019 15:55:42 CDT pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [179]	'getFEMacroList' ERROR encountered: :MacroMaker:otsdaq_utilities/otsdaq-utilities/MacroMaker/MacroMakerSupervisor.cc [126] Unknown error occurred handling request &apos;getFEMacroList!&apos;
+%MSG
