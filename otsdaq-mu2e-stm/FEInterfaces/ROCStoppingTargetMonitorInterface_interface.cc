@@ -50,7 +50,9 @@ void ROCStoppingTargetMonitorInterface::writeROCRegister(
               << linkID_ << ", address = " << address
               << ", write data = " << data_to_write << __E__;
 
-  thisDTC_->WriteROCRegister(linkID_, address, data_to_write);
+  bool requestAck = false;
+
+  thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck);
 
   return;
 }
@@ -65,7 +67,7 @@ int ROCStoppingTargetMonitorInterface::readROCRegister(unsigned address) {
 
   try
   {
-  read_data = thisDTC_->ReadROCRegister(linkID_, address, 10);
+  read_data = thisDTC_->ReadROCRegister(linkID_, address, 1);
   }
   catch(...)
   {
