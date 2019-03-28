@@ -1,0 +1,243 @@
+%MSG-i configureMessageFacility:  Early 08-Mar-2019 09:48:23 CST pre-events configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  DAQ 08-Mar-2019 09:48:23 CST Booted TCPConnect.cc:334
+Resolving host 127.0.0.1, on port 30000
+%MSG
+%MSG-i _TCPConnect:  DAQ 08-Mar-2019 09:48:23 CST Booted TCPConnect.cc:241
+Resolving ip mu2edaq06.fnal.gov
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:23 CST Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:23 CST Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:23 CST Booted configureMessageFacility.cc:286
+Message Facility Application ConfigurationGUI configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConfigurationGUI" pattern:"ConfigurationGUI-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:23 CST Booted configureMessageFacility.cc:286
+Message Facility Application OtsConfigurationWizard configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/OtsConfigurationWizard" pattern:"OtsConfigurationWizard-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:24 CST Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:24 CST Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:24 CST Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:24 CST Booted configureMessageFacility.cc:286
+Message Facility Application ConsoleSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConsoleSupervisor" pattern:"ConsoleSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i Console:  Early 08-Mar-2019 09:48:25 CST pre-events ConsoleSupervisor.cc:171
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [171]	INFO messages look like this.
+%MSG
+%MSG-w Console:  Early 08-Mar-2019 09:48:25 CST pre-events ConsoleSupervisor.cc:172
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [172]	WARNING messages look like this.
+%MSG
+%MSG-e Console:  Early 08-Mar-2019 09:48:25 CST pre-events ConsoleSupervisor.cc:173
+otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [173]	ERROR messages look like this.
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:25 CST Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:25 CST Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 09:48:25 CST Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-e ConfigurationGUISupervisor-280:  Early 08-Mar-2019 10:19:56 CST  pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [173]	'saveTableInfo' ERROR encountered: File already exists! (&apos;/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/TableInfo/STMParametersTableInfo.xml&apos;)
+%MSG
+%MSG-e ConfigurationGUISupervisor-280:  Early 08-Mar-2019 10:23:58 CST  pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [173]	'saveNewTableGroup' ERROR encountered: :ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5517]   There were errors found in loading a member table FEInterfaceTable:v16. Please see the details below:  The source column size was found to be 19, and the current number of columns for this table is 19. This resulted in a count of 16 source column mismatches, and a count of 12 table entries missing in 4 row(s) of data.   Source column names were as follows:   a. AUTHOR  b. COMMENT_DESCRIPTION  c. FE_INTERFACE_GROUP_ID  d. FE_INTERFACE_PLUGIN_NAME  e. FE_INTERFACE_UID  f. LINK_TO_FE_TYPE_TABLE  g. LINK_TO_FE_TYPE_UID  h. LINK_TO_SLOW_CONTROLS_MONITOR_TABLE  i. LINK_TO_SLOW_CONTROLS_MONITOR_UID  j. LINK_TO_SLOW_CONTROL_CHANNELS_GROUP_ID  k. LINK_TO_SLOW_CONTROL_CHANNELS_TABLE  l. RECORD_INSERTION_TIME  m. SLOW_CONTROLS_LOCAL_AGGREGATE_SAVING_ENABLED  n. SLOW_CONTROLS_LOCAL_FILE_PATH  o. SLOW_CONTROLS_RADIX_FILE_NAME  p. SLOW_CONTROLS_SAVE_BINARY_FILE  q. SLOW_CONTROLS_TX_SOCKET_IP_ADDRESS  r. SLOW_CONTROLS_TX_SOCKET_PORT  s. STATUS   Current table column names are as follows:   a. AUTHOR  b. COMMENT_DESCRIPTION  c. FE_INTERFACE_GROUP_ID  d. FE_INTERFACE_PLUGIN_NAME  e. FE_INTERFACE_UID  f. LINK_TO_FE_TYPE_TABLE  g. LINK_TO_FE_TYPE_UID  h. LINK_TO_SLOW_CONTROLS_CHANNEL_GROUP_ID  i. LINK_TO_SLOW_CONTROLS_CHANNEL_TABLE  j. LINK_TO_SLOW_CONTROLS_SUPERVISOR_TABLE  k. LINK_TO_SLOW_CONTROLS_SUPERVISOR_UID  l. RECORD_INSERTION_TIME  m. SLOW_CONTROLS_LOCAL_AGGREGATE_SAVING_ENABLED  n. SLOW_CONTROLS_LOCAL_FILE_PATH  o. SLOW_CONTROLS_RADIX_FILE_NAME  p. SLOW_CONTROLS_SAVE_BINARY_FILE  q. SLOW_CONTROLS_TX_SOCKET_IP_ADDRESS  r. SLOW_CONTROLS_TX_SOCKET_PORT  s. STATUS
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:45 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:45 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:45 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: GroupAliasWizBackbone(3)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:45 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:45 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(121)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:50 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:50 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:50 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(80)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:50 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:33:50 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(121)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:08 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:08 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:08 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(80)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:08 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:08 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(122)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:13 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:13 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:13 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(81)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:13 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:37:13 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(122)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:11 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:11 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:11 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(81)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:11 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:11 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(123)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:15 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:15 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:15 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(82)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:15 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:48:15 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(123)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:36 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:36 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:36 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(82)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:36 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:36 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(124)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:41 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:41 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:41 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(83)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:41 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 10:58:41 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(124)
+%MSG
+%MSG-e ConfigurationGUISupervisor-280:  Early 08-Mar-2019 11:01:41 CST  pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [173]	'saveTableInfo' ERROR encountered: File already exists! (&apos;/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/TableInfo/STMParametersTableInfo.xml&apos;)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:37 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:37 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:37 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(83)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:37 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:37 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(125)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:42 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:42 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:42 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(84)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:42 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:02:42 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(125)
+%MSG
+%MSG-e ConfigurationGUISupervisor-280:  Early 08-Mar-2019 11:26:43 CST  pre-events
+otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [173]	'saveTableInfo' ERROR encountered: File already exists! (&apos;/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/TableInfo/ROCInterfaceTableInfo.xml&apos;)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:45 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:45 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:45 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(84)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:45 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:45 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(126)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:50 CST pre-events ConfigurationManagerRW.cc:495
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [495]	Updating persistent active groups to /home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/ServiceData/ActiveTableGroups.cfg ...
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:50 CST pre-events ConfigurationManagerRW.cc:515
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [515]	Active Context table group: testContext(59)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:50 CST pre-events ConfigurationManagerRW.cc:521
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [521]	Active Backbone table group: TableEditWizBackbone(85)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:50 CST pre-events ConfigurationManagerRW.cc:527
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [527]	Active Iterate table group: (-1)
+%MSG
+%MSG-i ConfigurationManagerRW:  Early 08-Mar-2019 11:29:50 CST pre-events ConfigurationManagerRW.cc:533
+otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [533]	Active Configuration table group: defaultConfig(126)
+%MSG

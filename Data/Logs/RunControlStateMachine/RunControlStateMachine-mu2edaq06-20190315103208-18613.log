@@ -1,0 +1,87 @@
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 10:32:08 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"127.0.0.1" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  DAQ 15-Mar-2019 10:32:08 CDT Booted TCPConnect.cc:334
+Resolving host 127.0.0.1, on port 30000
+%MSG
+%MSG-i _TCPConnect:  DAQ 15-Mar-2019 10:32:08 CDT Booted TCPConnect.cc:241
+Resolving ip mu2edaq06.fnal.gov
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:09 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i WebUsers:  DAQ 15-Mar-2019 10:32:10 CDT Booted WebUsers.cc:3050
+otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [3050]	User 'admin' has locked out the system!
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:10 CDT Booted configureMessageFacility.cc:286
+Message Facility Application GatewaySupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/GatewaySupervisor" pattern:"GatewaySupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:11 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ChatSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ChatSupervisor" pattern:"ChatSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:13 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:14 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:14 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:14 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ConsoleSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConsoleSupervisor" pattern:"ConsoleSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:15 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application LogbookSupervisor configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/LogbookSupervisor" pattern:"LogbookSupervisor-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:16 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:17 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:17 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:17 CDT Booted configureMessageFacility.cc:286
+Message Facility Application ConfigurationGUI configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ConfigurationGUI" pattern:"ConfigurationGUI-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:18 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:19 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:19 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:19 CDT Booted configureMessageFacility.cc:286
+Message Facility Application MacroMaker configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/MacroMaker" pattern:"MacroMaker-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:20 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:21 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 10:32:21 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG

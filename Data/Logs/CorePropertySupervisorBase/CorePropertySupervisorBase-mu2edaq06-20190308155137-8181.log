@@ -1,0 +1,92 @@
+%MSG-i configureMessageFacility:  Early 08-Mar-2019 15:51:37 CST pre-events configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  DAQ 08-Mar-2019 15:51:37 CST Booted TCPConnect.cc:334
+Resolving host 192.168.157.6, on port 30000
+%MSG
+%MSG-i _TCPConnect:  DAQ 08-Mar-2019 15:51:37 CST Booted TCPConnect.cc:241
+Resolving ip mu2edaq06.fnal.gov
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 15:51:38 CST Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 08-Mar-2019 15:51:38 CST Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  Early 08-Mar-2019 15:52:26 CST pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 08-Mar-2019 15:52:26 CST pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 08-Mar-2019 15:52:26 CST pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 08-Mar-2019 15:52:26 CST  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-e ots:  Early 08-Mar-2019 15:52:26 CST pre-events FEVInterfacesManager.cc:131
+otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc [131]	:ots:FESupervisor2Config:otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc [125]	Failed to instantiate plugin named 'DTC1' of type 'DTCFrontEndInterface' due to the following error: 
+:ConfigurationTree:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationTree.cc [1110]	
+
+Error occurred descending from node 'STMPedanticParamSet0' in table 'STMParametersTable' looking for child 'STMMustBeUniqueParam1'
+
+
+The original node search string was '.'
+--- Additional error detail: 
+
+:TableView-STM_PARAMETERS_TABLE:v3:otsdaq/otsdaq-core/TableCore/TableView.cc [1386]		In view: STM_PARAMETERS_TABLE, Can't find column named 'STMMustBeUniqueParam1'
+Existing columns:
+	STMParametersUID
+	STMNumberParam1
+	STMTrueFalseParam2
+	STMMustBeUniqueParam3
+	LinkToSTMGroupedParametersTable
+	LinkToSTMGroupedParametersGroupID
+	CommentDescription
+	Author
+	RecordInsertionTime
+
+:ConfigurationTree:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationTree.cc [1148]	ConfigurationTree::nodeDump() =====================================
+ConfigurationTree::nodeDump():
+	Error occurred from node 'STMPedanticParamSet0'...
+	Error occurred from node 'STMPedanticParamSet0' in table 'STMParametersTable.'
+	Here is the list of possible children (count = 7):
+		STMNumberParam1
+		STMTrueFalseParam2
+		STMMustBeUniqueParam3
+		LinkToSTMGroupedParametersTable
+		CommentDescription
+		Author
+		RecordInsertionTime
+
+
+Here is the culprit table printout:
+
+==============================================================================
+Print: STM_PARAMETERS_TABLE Version: 3 Comment: Example of subsystem configuration parameters Author: admin Creation Time: Fri Mar  8 11:02:29 2019
+
+		Number of Cols 9
+		Number of Rows 4
+Columns:	0:STMParametersUID:STM_PARAMETERS_UID:UID:VARCHAR2	 1:STMNumberParam1:STM_NUMBER_PARAM1:Data:VARCHAR2	 2:STMTrueFalseParam2:STM_TRUE_FALSE_PARAM2:TrueFalse:VARCHAR2	 3:STMMustBeUniqueParam3:STM_MUST_BE_UNIQUE_PARAM3:UniqueData:VARCHAR2	 4:LinkToSTMGroupedParametersTable:LINK_TO_STM_GROUPED_PARAMETERS_TABLE:ChildLink-STMGroupedParameters:VARCHAR2	 5:LinkToSTMGroupedParametersGroupID:LINK_TO_STM_GROUPED_PARAMETERS_GROUP_ID:ChildLinkGroupID-STMGroupedParameters:VARCHAR2	 6:CommentDescription:COMMENT_DESCRIPTION:Comment:VARCHAR2	 7:Author:AUTHOR:Author:VARCHAR2	 8:RecordInsertionTime:RECORD_INSERTION_TIME:Timestamp:TIMESTAMP WITH TIMEZONE	 
+Rows:
+0:	0:STMPedanticParamSet0		1:42		2:True		3:DifferentFromOtherUIDs0		4:NO_LINK		5:DEFAULT		6:No Comment		7:admin		8:1552064549		
+1:	0:STMPedanticParamSet1		1:${HISTSIZE}+3		2:True		3:DifferentFromOtherUIDs1		4:NO_LINK		5:DEFAULT		6:No Comment		7:admin		8:1552064549		
+2:	0:STMPedanticParamSet2		1:b1101		2:False		3:DifferentFromOtherUIDs2		4:NO_LINK		5:DEFAULT		6:No Comment		7:admin		8:1552064549		
+3:	0:STMPedanticParamSet3		1:0x10		2:False		3:DifferentFromOtherUIDs3		4:NO_LINK		5:DEFAULT		6:No Comment		7:admin		8:1552064549		
+
+
+:ots:otsdaq/otsdaq-core/Macros/StringMacros.cc [643]	ots::stackTrace:
+[1] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq/lib/libConfigurationInterface.so : ots::ConfigurationTree::nodeDump[abi:cxx11]() const+0x3cf [0x7f71b2359b3f]
+[2] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq/lib/libConfigurationInterface.so : ots::ConfigurationTree::recursiveGetNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const+0x1011 [0x7f71b235acc1]
+[3] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq/lib/libConfigurationInterface.so : ots::ConfigurationTree::getNode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const+0x50 [0x7f71b235c5d0]
+[4] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq_mu2e_stm/lib/libotsdaq-mu2e-stm_FEInterfaces_ROCStoppingTargetMonitorInterface_interface.so : ots::ROCStoppingTargetMonitorInterface::ROCStoppingTargetMonitorInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ots::ConfigurationTree const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x592 [0x7f71814223d2]
+[5] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq_mu2e_stm/lib/libotsdaq-mu2e-stm_FEInterfaces_ROCStoppingTargetMonitorInterface_interface.so : make+0x3b [0x7f7181422d0b]
+[6] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq/lib/libPluginMakers.so : ots::makeInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ots::ConfigurationTree const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x70 [0x7f71b20e1d70]
+[7] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq_mu2e/lib/libotsdaq-mu2e_FEInterfaces_DTCFrontEndInterface_interface.so : ots::DTCFrontEndInterface::createROCs()+0xaf7 [0x7f7186d8e527]
+[8] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq_mu2e/lib/libotsdaq-mu2e_FEInterfaces_DTCFrontEndInterface_interface.so : ots::DTCFrontEndInterface::DTCFrontEndInterface(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, ots::ConfigurationTree const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)+0x1447 [0x7f7186d93447]
+[9] /home/mu2edaq/sync_demo/ots/build_slf7.x86_64/otsdaq_mu2e/lib/libotsdaq-mu2e_FEInterfaces_DTCFrontEndInterface_interface.so : make+0x3b [0x7f7186d93edb]
+
+
+end ConfigurationTree::nodeDump() =====================================
+%MSG

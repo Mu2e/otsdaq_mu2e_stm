@@ -1,0 +1,381 @@
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:54:23 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application CorePropertySupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CorePropertySupervisorBase" pattern:"CorePropertySupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i _TCPConnect:  DAQ 15-Mar-2019 12:54:23 CDT Booted TCPConnect.cc:334
+Resolving host 192.168.157.6, on port 30000
+%MSG
+%MSG-i _TCPConnect:  DAQ 15-Mar-2019 12:54:23 CDT Booted TCPConnect.cc:241
+Resolving ip mu2edaq06.fnal.gov
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 12:54:25 CDT Booted configureMessageFacility.cc:286
+Message Facility Application RunControlStateMachine configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/RunControlStateMachine" pattern:"RunControlStateMachine-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  DAQ 15-Mar-2019 12:54:25 CDT Booted configureMessageFacility.cc:286
+Message Facility Application CoreSupervisorBase configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/CoreSupervisorBase" pattern:"CoreSupervisorBase-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:55:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:55:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:55:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:55:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:55:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:55:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:55:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:55:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-e ots:  Early 15-Mar-2019 12:55:32 CDT pre-events FEVInterfacesManager.cc:136
+otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc [136]	:ots:FESupervisor2Config:otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc [130]	Failed to instantiate plugin named 'DTC1' of type 'DTCFrontEndInterface' due to the following error: 
+:ots:otsdaq/otsdaq-core/TableCore/TableView.icc [165]		Unrecognized column data type: VARCHAR2 and column type: Data, in configuration SUBSYSTEM_STM_PARAMETERS_TABLE at column=NumberParam1 for getValue with type 'int'
+:ots:otsdaq/otsdaq-core/Macros/StringMacros.icc [274]	Failed to validate the string value for the data type  'int' requested. 
+:ots:otsdaq/otsdaq-core/Macros/StringMacros.cc [176]	The environmental variable 'HIST_SIZE' is not set! Please make sure you set it before continuing!
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:58:01 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:58:01 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:58:01 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 15-Mar-2019 12:58:01 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i configureMessageFacility:  Early 15-Mar-2019 12:58:01 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 42
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 1003
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 11
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 16
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 15-Mar-2019 12:58:01 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 11:19:58 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 11:19:58 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 11:19:58 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 11:19:58 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 11:19:58 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 42
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 1003
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 11
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 16
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 11:19:58 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:06:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:06:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:06:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:06:31 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:06:31 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 42
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 1003
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 11
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 16
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:06:31 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:09:10 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 2 and EventWindowDelayOffset = 21
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:09:10 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 3 and EventWindowDelayOffset = 31
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:09:10 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 4 and EventWindowDelayOffset = 41
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCCoreVInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCCoreVInterface" pattern:"ROCCoreVInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCCoreVInterface:  Early 20-Mar-2019 15:09:10 CDT pre-events
+otsdaq_mu2e/otsdaq-mu2e/ROCCore/ROCCoreVInterface.cc [28]	ROCCoreVInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i configureMessageFacility:  Early 20-Mar-2019 15:09:10 CDT pre-events configureMessageFacility.cc:286
+Message Facility Application ROCStoppingTargetMonitorInterface configured with: debugModules:["*"] destinations:{file:{append:false directory:"/home/mu2edaq/sync_demo/ots/srcs/otsdaq_mu2e/Data/Logs/ROCStoppingTargetMonitorInterface" pattern:"ROCStoppingTargetMonitorInterface-%?H%t-%p.log" seperator:"-" threshold:"DEBUG" timestamp_pattern:"%Y%m%d%H%M%S" type:"GenFile"} udp:{host:"192.168.157.6" port:30000 threshold:"DEBUG" type:"UDP"}}
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [21]	ROCStoppingTargetMonitorInterface instantiated with link: 5 and EventWindowDelayOffset = 51
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 42
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 1003
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 11
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [128]	.... STM parameter 1 = 16
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [129]	.... STM parameter 2 = 0
+%MSG
+%MSG-i FE-ROCStoppingTargetMonitorInterface:  Early 20-Mar-2019 15:09:10 CDT  pre-events
+otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface_interface.cc [132]	... STM ROC Register 0, Write 1, Read -1
+%MSG
