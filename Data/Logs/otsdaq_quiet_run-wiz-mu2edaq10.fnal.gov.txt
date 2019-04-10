@@ -1,39 +1,39 @@
-27 Mar 2019 18:24:21.548 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - xdaq version: 05.03.01, compiled on Nov 30 2018 at 11:32:13, 64bit
-27 Mar 2019 18:24:21.549 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - Loaded profile: /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/XDAQConfigurations/otsConfiguration_CMake.xml
-27 Mar 2019 18:24:21.550 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - b2innub version: 02.05.01, compiled on Nov 30 2018 at 11:35:34
-27 Mar 2019 18:24:21.551 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - executive version: 04.00.06, compiled on Nov 30 2018 at 11:35:00
-27 Mar 2019 18:24:21.553 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - b2inutils version: 04.04.05, compiled on Nov 30 2018 at 11:35:40
-27 Mar 2019 18:24:21.554 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - pthttp version: 04.05.07, compiled on Nov 30 2018 at 11:33:38
-27 Mar 2019 18:24:21.555 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - ptfifo version: 04.03.01, compiled on Nov 30 2018 at 11:34:34
-27 Mar 2019 18:24:21.556 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - xrelay version: 04.01.00, compiled on Nov 30 2018 at 11:35:26
-27 Mar 2019 18:24:21.559 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - hyperdaq version: 05.02.01, compiled on Nov 30 2018 at 11:35:24
-27 Mar 2019 18:24:21.559 [140418084907200] DEBUG gov.fnal.mu2edaq10.p:3035 <> - Create application descriptor for class: executive::Application id: 0
-27 Mar 2019 18:24:21.571 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035.executive::Application.lid(0) <> - Log URL not set (was already console)
-27 Mar 2019 18:24:21.571 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035.executive::Application.lid(0) <> - Changed Log level to INFO
-27 Mar 2019 18:24:21.574 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035.pt::http::PeerTransportHTTP.lid(1) <> - No security policies on this server
-27 Mar 2019 18:24:21.799 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - ConfigurationGUI version: 03.00.00, compiled on Mar 26 2019 at 16:38:18
-27 Mar 2019 18:24:21.809 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - WizardSupervisor version: 01.00.00, compiled on Mar 26 2019 at 16:38:54
-27 Mar 2019 18:24:21.811 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - Console version: 03.00.00, compiled on Mar 26 2019 at 16:38:18
-27 Mar 2019 18:24:21.813 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - CodeEditor version: 03.00.00, compiled on Mar 26 2019 at 16:38:19
+04 Apr 2019 18:33:09.535 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - xdaq version: 05.03.01, compiled on Nov 30 2018 at 11:32:13, 64bit
+04 Apr 2019 18:33:09.537 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - Loaded profile: /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/XDAQConfigurations/otsConfiguration_CMake.xml
+04 Apr 2019 18:33:09.537 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - b2innub version: 02.05.01, compiled on Nov 30 2018 at 11:35:34
+04 Apr 2019 18:33:09.538 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - executive version: 04.00.06, compiled on Nov 30 2018 at 11:35:00
+04 Apr 2019 18:33:09.540 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - b2inutils version: 04.04.05, compiled on Nov 30 2018 at 11:35:40
+04 Apr 2019 18:33:09.542 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - pthttp version: 04.05.07, compiled on Nov 30 2018 at 11:33:38
+04 Apr 2019 18:33:09.543 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - ptfifo version: 04.03.01, compiled on Nov 30 2018 at 11:34:34
+04 Apr 2019 18:33:09.544 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - xrelay version: 04.01.00, compiled on Nov 30 2018 at 11:35:26
+04 Apr 2019 18:33:09.547 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - hyperdaq version: 05.02.01, compiled on Nov 30 2018 at 11:35:24
+04 Apr 2019 18:33:09.547 [140241131772096] DEBUG gov.fnal.mu2edaq10.p:3035 <> - Create application descriptor for class: executive::Application id: 0
+04 Apr 2019 18:33:09.559 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035.executive::Application.lid(0) <> - Log URL not set (was already console)
+04 Apr 2019 18:33:09.559 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035.executive::Application.lid(0) <> - Changed Log level to INFO
+04 Apr 2019 18:33:09.562 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035.pt::http::PeerTransportHTTP.lid(1) <> - No security policies on this server
+04 Apr 2019 18:33:09.804 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - ConfigurationGUI version: 03.00.00, compiled on Apr  4 2019 at 13:20:26
+04 Apr 2019 18:33:09.814 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - WizardSupervisor version: 01.00.00, compiled on Apr  4 2019 at 13:25:44
+04 Apr 2019 18:33:09.817 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - Console version: 03.00.00, compiled on Apr  4 2019 at 13:20:28
+04 Apr 2019 18:33:09.819 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - CodeEditor version: 03.00.00, compiled on Apr  4 2019 at 13:20:27
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1216]	Table: TableGroupMetadata
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1218]	Num of Views: 0 (Temporary Views: 0)
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1249]	Using Mock-up view
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
 LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [61]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [62]	FESlowControlsTable
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [72]	BurstDataCount
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [74]	childType=unsigned long long
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
-03-27 13:24:22.388580                         UDP_mfPlugin err Error sending message 2 to 127.0.0.1, errno=17 (File exists)
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+04-04 13:33:18.565880                         UDP_mfPlugin err Error sending message 2 to 127.0.0.1, errno=17 (File exists)
 LogDebug:ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [33]	application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2edaq10.fnal.gov:3035
 LogDebug:ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [34]	application->getApplicationDescriptor()->getLocalId() = 280
 LogDebug:ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [35]	supervisorClass_ = ots::ConfigurationGUISupervisor
@@ -43,64 +43,67 @@ LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/SupervisorDescriptorInfoBase.cc [
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [96]	Initializing info for Wiz mode XDAQ context...
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [330]	Init complete
 LogDebug:ConfigurationGUISupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [43]	Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConfigurationGUISupervisor'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [52]	CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [53]	CorePropertySupervisorBase::supervisorApplicationUID_ = 280
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [54]	CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
 LogDebug:FSM-ConfigurationGUISupervisor:otsdaq/otsdaq-core/FiniteStateMachine/FiniteStateMachine.cc [22]	Constructing FiniteStateMachine
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:FSM-ConfigurationGUISupervisor:otsdaq/otsdaq-core/FiniteStateMachine/RunControlStateMachine.cc [171]	Resetting RunControlStateMachine with name 'ConfigurationGUISupervisor'...
 LogDebug:ots:otsdaq/otsdaq-core/WorkLoopManager/WorkLoopManager.cc [20]	Request name: StateMachine jobName: StateMachine
 LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [28]	Constructor.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [52]	Constructed.
 LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [42]	Constructor started.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [56]	Initializing...
 LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [58]	Activating saved context, which may prepare for normal mode...
-LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [6879]	Attempting test activation of the context group.
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [6935]	Attempting test activation of the context group.
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1216]	Table: TableGroupMetadata
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1218]	Num of Views: 0 (Temporary Views: 0)
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1249]	Using Mock-up view
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
 LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [61]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [62]	FESlowControlsTable
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [72]	BurstDataCount
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [74]	childType=unsigned long long
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 144
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 100
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 61
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
 LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [47]	Constructor complete.
 LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [72]	Constructor started.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
-LogDebug:ots:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [160]	Marked alive: /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/Logs/otsdaq_is_alive-wiz-0.dat
-LogInfo:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [286]	(Reverting to default wiz security) Sequence length file NOT found: /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/ServiceData/OtsWizardData/sequence.dat
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [166]	Marked alive: /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/Logs/otsdaq_is_alive-wiz-0.dat
+LogInfo:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [286]	(Reverting to default wiz security) Sequence length file NOT found: /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/OtsWizardData/sequence.dat
 LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [292]	Sequence length = 4
 LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [306]	:3035/urn:xdaq-application:lid=290/Verify?code=fa37
 LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [103]	Constructor complete.
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1216]	Table: TableGroupMetadata
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1218]	Num of Views: 0 (Temporary Views: 0)
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1249]	Using Mock-up view
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
 LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [61]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [62]	FESlowControlsTable
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [72]	BurstDataCount
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [74]	childType=unsigned long long
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [33]	application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2edaq10.fnal.gov:3035
 LogDebug:ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [34]	application->getApplicationDescriptor()->getLocalId() = 260
 LogDebug:ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [35]	supervisorClass_ = ots::ConsoleSupervisor
@@ -110,22 +113,25 @@ LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/SupervisorDescriptorInfoBase.cc [
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [96]	Initializing info for Wiz mode XDAQ context...
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [330]	Init complete
 LogDebug:ConsoleSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [43]	Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::ConsoleSupervisor'
+LogDebug:ConsoleSupervisor:260:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [52]	CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+LogDebug:ConsoleSupervisor:260:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [53]	CorePropertySupervisorBase::supervisorApplicationUID_ = 260
+LogDebug:ConsoleSupervisor:260:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [54]	CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
 LogDebug:FSM-ConsoleSupervisor:otsdaq/otsdaq-core/FiniteStateMachine/FiniteStateMachine.cc [22]	Constructing FiniteStateMachine
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:FSM-ConsoleSupervisor:otsdaq/otsdaq-core/FiniteStateMachine/RunControlStateMachine.cc [171]	Resetting RunControlStateMachine with name 'ConsoleSupervisor'...
 LogDebug:ots:otsdaq/otsdaq-core/WorkLoopManager/WorkLoopManager.cc [20]	Request name: StateMachine jobName: StateMachine
 LogDebug:ConsoleSupervisor:260:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [28]	Constructor.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:ConsoleSupervisor:260:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [52]	Constructed.
 LogDebug:ConsoleSupervisor:260:otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [44]	Constructor started.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:ConsoleSupervisor:260:otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [53]	Constructor complete.
 LogDebug:Console:otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [82]	
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1216]	Table: TableGroupMetadata
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1218]	Num of Views: 0 (Temporary Views: 0)
 LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1249]	Using Mock-up view
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
 LogDebug:ots:otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [31]	Socket constructor 127.0.0.1:30001
 LogDebug:ots:otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [46]	IPAddress: 127.0.0.1 port: 30001 htons: 12661
 LogDebug:ots:otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [60]	Constructed socket for port 30001=30001 htons: 12661
@@ -140,20 +146,20 @@ otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [156]	:):):):):):):):):):):):):):)
 otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [160]	:):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):):)
 LogDebug:ots:otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [167]	]	Socket Number: 10 for port: 30001 initialized.
 LogDebug:ots:otsdaq/otsdaq-core/NetworkUtilities/Socket.cc [184]	Setting socket receive buffer size = 65536 0x10000
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(61)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(100)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
 LogDebug:Console:otsdaq_utilities/otsdaq-utilities/Console/ConsoleSupervisor.cc [166]	Console has first message.
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [61]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [62]	FESlowControlsTable
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [72]	BurstDataCount
-LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [74]	childType=unsigned long long
-LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(144)']
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [33]	application->getApplicationContext()->getContextDescriptor()->getURL() = http://mu2edaq10.fnal.gov:3035
 LogDebug:CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [34]	application->getApplicationDescriptor()->getLocalId() = 240
 LogDebug:CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [35]	supervisorClass_ = ots::CodeEditorSupervisor
@@ -163,13 +169,543 @@ LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/SupervisorDescriptorInfoBase.cc [
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [96]	Initializing info for Wiz mode XDAQ context...
 LogDebug:ots:otsdaq/otsdaq-core/SupervisorInfo/AllSupervisorInfo.cc [330]	Init complete
 LogDebug:CodeEditorSupervisor:UNINITIALIZED_supervisorApplicationUID:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [43]	Wiz mode detected. So skipping configuration location work for supervisor of class 'ots::CodeEditorSupervisor'
+LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [52]	CorePropertySupervisorBase::supervisorContextUID_ = NO CONTEXT ID IN WIZ MODE
+LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [53]	CorePropertySupervisorBase::supervisorApplicationUID_ = 240
+LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [54]	CorePropertySupervisorBase::supervisorConfigurationPath_ = NO APP PATH IN WIZ MODE
 LogDebug:FSM-CodeEditorSupervisor:otsdaq/otsdaq-core/FiniteStateMachine/FiniteStateMachine.cc [22]	Constructing FiniteStateMachine
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:FSM-CodeEditorSupervisor:otsdaq/otsdaq-core/FiniteStateMachine/RunControlStateMachine.cc [171]	Resetting RunControlStateMachine with name 'CodeEditorSupervisor'...
 LogDebug:ots:otsdaq/otsdaq-core/WorkLoopManager/WorkLoopManager.cc [20]	Request name: StateMachine jobName: StateMachine
 LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [28]	Constructor.
-LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2edaq/sync_demo/ots_stm/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
+LogDebug:ots:otsdaq/otsdaq-core/MessageFacility/MessageFacility.h [41]	Configuring message facility with /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacility.fcl
 LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [52]	Constructed.
 LogDebug:CodeEditorSupervisor:240:otsdaq/otsdaq-core/CodeEditor/CodeEditorSupervisor.cc [11]	Constructed.
-27 Mar 2019 18:24:24.029 [140418084907200] INFO  gov.fnal.mu2edaq10.p:3035 <> - Ready.
+04 Apr 2019 18:33:39.970 [140241131772096] INFO  gov.fnal.mu2edaq10.p:3035 <> - Ready.
+LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [211]	submittedSequence=fa37 1554402894
+LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [225]	*** Successfully authenticated security sequence @ 1554402894
+LogDebug:Wizard:otsdaq/otsdaq-core/WizardSupervisor/WizardSupervisor.cc [148]	***Successfully authenticated security sequence. 1554402899
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554402900
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554402900
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554402968
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [306]	Wiz mode detected. Skipping setup of supervisor properties for supervisor of class 'ots::ConfigurationGUISupervisor'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [350]	Final supervisor property settings:
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		AllowNoLoginRequestTypes = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		AutomatedRequestTypes = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		CheckUserLockRequestTypes = *
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		NoXmlWhiteSpaceRequestTypes = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		NonXMLRequestTypes = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		RequireUserLockRequestTypes = *
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		UserGroupsAllowed = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		UserGroupsDisallowed = 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CorePropertySupervisorBase.cc [352]		UserPermissionsThreshold = *=10 | deleteTreeNodeRecords=255 | saveTableInfo=255 | deleteTableInfo=255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> versionTracking
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: versionTracking
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 0
+LogInfo:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5297]	Creating new Configuration Manager.
+LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1216]	Table: TableGroupMetadata
+LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1218]	Num of Views: 0 (Temporary Views: 0)
+LogDebug:TableBase-TableGroupMetadata:otsdaq/otsdaq-core/TableCore/TableBase.cc [1249]	Using Mock-up view
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [46]	Using Config Mgr with Write Access! (for admin)
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [65]	Updating core tables table...
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [214]	======================================================== getAllTableInfo start
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [217]	Refreshing all! Extracting list of tables...
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [361]	Extracting list of tables complete
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [366]	======================================================== getAllTableInfo end
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [377]	Number of Groups: 410
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [390]	type: Get
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getBackboneMemberNames
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getBackboneMemberNames
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getContextMemberNames
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getContextMemberNames
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getLastTableGroups
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getLastTableGroups
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Configured
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Started
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getContextMemberNames
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getContextMemberNames
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getGroupAliases
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getGroupAliases
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [440]	reloadActive: 1
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [6478]	activeVersions["GroupAliasesTable"]=187
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554403004
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: defaultConfig
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 146
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [214]	======================================================== getAllTableInfo start
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [217]	Refreshing all! Extracting list of tables...
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [361]	Extracting list of tables complete
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [366]	======================================================== getAllTableInfo end
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [377]	Number of Groups: 410
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'defaultConfig(146)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2722]	accumulateTreeErrs = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getSpecificTable
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getSpecificTable
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [629]	allowIllegalColumns: 0
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [631]	getSpecificTable: ROCInterfaceTable versionStr: 46 chunkSize: 100 dataOffset: 0
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [683]	version: 46
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1836]	activeVersions["VersionAliasesTable"]=4
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [4704]	ALIAS: GroupAliasesTable Default ==> 140
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> versionTracking
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: versionTracking
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [390]	type: Get
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getLastTableGroups
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getLastTableGroups
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Configured
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Started
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getGroupAliases
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getGroupAliases
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [440]	reloadActive: 1
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [6478]	activeVersions["GroupAliasesTable"]=187
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554403033
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [214]	======================================================== getAllTableInfo start
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [217]	Refreshing all! Extracting list of tables...
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [361]	Extracting list of tables complete
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [366]	======================================================== getAllTableInfo end
+LogDebug:ConfigurationManagerRW:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManagerRW.cc [377]	Number of Groups: 410
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2722]	accumulateTreeErrs = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2811]	LinkToPropertyTable
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2836]	choices.size() 3
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToPropertyTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2811]	LinkToSlowControlsChannelTable
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2836]	choices.size() 3
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2811]	LinkToSlowControlsSupervisorTable
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2836]	choices.size() 3
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToSlowControlsChannelTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToSlowControlsSupervisorTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/LinkToROCGroupTable/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/LinkToROCGroupTable/DTC0_ROC2_STM0/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/LinkToROCGroupTable/DTC0_ROC4_STM2/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/LinkToROCGroupTable/DTC0_ROC5_STM3/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getTreeView
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getTreeView
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [785]	configGroup: testContext
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [786]	configGroupKey: 62
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [787]	startPath: /XDAQContextTable/ContextDTC0/LinkToApplicationTable/FESupervisorDTC0/LinkToSupervisorTable/LinkToFEInterfaceTable/DTC0/LinkToFETypeTable/LinkToROCGroupTable/DTC0_ROC3_STM1/
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [788]	depth: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [789]	hideStatusFalse: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [790]	modifiedTables: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [791]	filterList: 
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [1567]	Loading group 'testContext(62)'
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2700]	Active tables are setup. No issues found.
+LogDebug:CfgGUI:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [2744]	StringMacros::mapToString(filterMap) = 
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getLastTableGroups
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getLastTableGroups
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Configured
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3550]	ActionOfLastGroup: Started
+LogDebug:GatewaySupervisor:otsdaq/otsdaq-core/GatewaySupervisor/GatewaySupervisor.cc [3694]	theGroup.first= defaultConfig
+ theGroup.second= 146
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> versionTracking
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: versionTracking
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [390]	type: Get
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [429]	requestType ==========>>> getGroupAliases
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [430]	(unsigned int)userInfo.permissionLevel_ = 255
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [431]	(unsigned int)userInfo.permissionsThreshold_ = 10
+LogDebug:ConfigurationGUISupervisor:280:otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc [123]	requestType: getGroupAliases
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [5289]	Config Session: admin:0 ... out of size: 1
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [440]	reloadActive: 1
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [381]	Destroying Configuration Key: 146
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [393]	Destroying Backbone Key: 102
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [412]	Destroying Context Key: 62
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [197]	ACTIVE_GROUPS_FILENAME = /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/ServiceData/ActiveTableGroups.cfg
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [198]	ARTDAQ_DATABASE_URI = filesystemdb:///home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/databases/filesystemdb/test_db
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [105]	Opened.. /home/mu2estm/test_stand/ots/srcs/otsdaq_mu2e_stm/Data/MessageFacilityConfigurations/MessageFacilityGen.fcl
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/MessageFacilityTable_table.cc [159]	Forwarding to Web GUI with UDP forward MesageFacility table.
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/XDAQContextTable_table.cc [497]	Fixing deprecated Supervisor class from ots::Supervisor to ots::GatewaySupervisorLogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Context group 'testContext(62)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Backbone group 'TableEditWizBackbone(102)']
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1123]	------------------------------------- init start    	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [64]	*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*&*
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [65]	FESlowControlsTable
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [75]	BurstDataCount
+LogDebug:ots:otsdaq/otsdaq-core/TablePluginDataFormats/FESlowControlsTable_table.cc [77]	childType=unsigned long long
+LogDebug:ConfigurationManager:otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationManager.cc [1288]	------------------------------------- init complete 	 [for all plug-ins in Configuration group 'defaultConfig(146)']
+LogDebug:ConfigurationGUISupervisor:280:otsdaq_utilities/otsdaq-utilities/ConfigurationGUI/ConfigurationGUISupervisor.cc [6478]	activeVersions["GroupAliasesTable"]=187
+LogDebug:WebUsers:otsdaq/otsdaq-core/WebUsersUtilities/WebUsers.cc [2712]	tooltip value read = 1 vs time(0)=1554403121
 Terminating...

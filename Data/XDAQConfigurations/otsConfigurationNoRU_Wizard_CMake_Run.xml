@@ -6,16 +6,16 @@
   <xc:Context id="0" url="http://mu2edaq10.fnal.gov:3035">
 
     <xc:Application class="ots::ConfigurationGUISupervisor" id="280" instance="1" network="local" group="daq"/>
-    <xc:Module>/home/mu2edaq/sync_demo/ots_stm/build_slf7.x86_64/otsdaq_utilities/lib/libConfigurationGUI.so</xc:Module>
+    <xc:Module>/home/mu2estm/test_stand/ots/build_slf7.x86_64/otsdaq_utilities/lib/libConfigurationGUI.so</xc:Module>
 
     <xc:Application class="ots::WizardSupervisor" id="290" instance="1" network="local" group="daq"/>
-    <xc:Module>/home/mu2edaq/sync_demo/ots_stm/build_slf7.x86_64/otsdaq/lib/libWizardSupervisor.so</xc:Module>
+    <xc:Module>/home/mu2estm/test_stand/ots/build_slf7.x86_64/otsdaq/lib/libWizardSupervisor.so</xc:Module>
 
     <xc:Application class="ots::ConsoleSupervisor" id="260" instance="1" network="local" group="daq"/>
-    <xc:Module>/home/mu2edaq/sync_demo/ots_stm/build_slf7.x86_64/otsdaq_utilities/lib/libConsole.so</xc:Module>
+    <xc:Module>/home/mu2estm/test_stand/ots/build_slf7.x86_64/otsdaq_utilities/lib/libConsole.so</xc:Module>
 
     <xc:Application class="ots::CodeEditorSupervisor" id="240" instance="1" network="local" group="daq"/>
-    <xc:Module>/home/mu2edaq/sync_demo/ots_stm/build_slf7.x86_64/otsdaq/lib/libCodeEditor.so</xc:Module>
+    <xc:Module>/home/mu2estm/test_stand/ots/build_slf7.x86_64/otsdaq/lib/libCodeEditor.so</xc:Module>
     
   </xc:Context>
 
