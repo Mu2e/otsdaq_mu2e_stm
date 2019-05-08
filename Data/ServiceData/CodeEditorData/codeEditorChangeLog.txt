@@ -742,3 +742,11 @@ time=1553617051 authoradmin old-size=28398 new-size=28382 path=/home/mu2edaq/syn
 time=1553617327 authoradmin old-size=28382 new-size=28382 path=/home/mu2edaq/sync_demo/ots/srcs//otsdaq_mu2e/otsdaq-mu2e/FEInterfaces/CFOFrontEndInterface_interface.cc
 time=1553617691 authoradmin old-size=18879 new-size=18871 path=/home/mu2edaq/sync_demo/ots/srcs//otsdaq_mu2e/otsdaq-mu2e/FEInterfaces/CAPTANSignalGenerator_interface.cc
 time=1553618159 authoradmin old-size=81771 new-size=81763 path=/home/mu2edaq/sync_demo/ots/srcs//otsdaq_mu2e/otsdaq-mu2e/FEInterfaces/DTCFrontEndInterface_interface.cc
+time=1557330321 authoradmin old-size=36124 new-size=36139 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/CoreSupervisors/CoreSupervisorBase.cc
+time=1557330716 authoradmin old-size=81764 new-size=81817 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/ConfigurationInterface/ConfigurationTree.cc
+time=1557331190 authoradmin old-size=89073 new-size=89075 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc
+time=1557331277 authoradmin old-size=3132 new-size=3137 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.cc
+time=1557331285 authoradmin old-size=886 new-size=850 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.h
+time=1557331290 authoradmin old-size=89075 new-size=89075 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc
+time=1557331601 authoradmin old-size=3137 new-size=3130 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.cc
+time=1557331613 authoradmin old-size=850 new-size=843 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.h
