@@ -120,6 +120,10 @@
 {
 "name" : "testContext_v62",
 "assigned" : "2019-03-27T13:43:45.288-0500"
+},
+{
+"name" : "testContext_v63",
+"assigned" : "2019-05-08T11:51:16.063-0500"
 }
 ],
 "changelog" : "notprovided",
@@ -165,6 +169,14 @@
 "value" : {
 "name" : "testContext_v62",
 "assigned" : "2019-03-27T13:43:45.288-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-08T11:51:16.063-0500",
+"value" : {
+"name" : "testContext_v63",
+"assigned" : "2019-05-08T11:51:16.063-0500"
 }
 }
 ],
