@@ -1,0 +1,150 @@
+{
+"document" : {
+"data" : {
+"NAME" : "VERSION_ALIASES_TABLE",
+"COMMENT" : "Default Version Aliases.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1557522016,
+"COL_TYPES" : {
+"VERSION_ALIAS_UID" : "VARCHAR2",
+"TABLE_NAME" : "VARCHAR2",
+"VERSION_ALIAS" : "VARCHAR2",
+"VERSION" : "VARCHAR2",
+"COMMENT_DESCRIPTION" : "VARCHAR2",
+"AUTHOR" : "VARCHAR2",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"VERSION_ALIAS_UID" : "GroupAliasesDefault",
+"TABLE_NAME" : "GroupAliasesTable",
+"VERSION_ALIAS" : "Default",
+"VERSION" : "140",
+"COMMENT_DESCRIPTION" : "Entry was added by server in ConfigurationGUISupervisor::setVersionAliasInActiveBackbone().",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1551735179"
+},
+{
+"VERSION_ALIAS_UID" : "SubsystemSTMParametersDefault",
+"TABLE_NAME" : "SubsystemSTMParametersTable",
+"VERSION_ALIAS" : "Default",
+"VERSION" : "7",
+"COMMENT_DESCRIPTION" : "Entry was added by server in ConfigurationGUISupervisor::setVersionAliasInActiveBackbone().",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1557522016"
+},
+{
+"VERSION_ALIAS_UID" : "ROCInterfaceDefault",
+"TABLE_NAME" : "ROCInterfaceTable",
+"VERSION_ALIAS" : "Default",
+"VERSION" : "46",
+"COMMENT_DESCRIPTION" : "Entry was added by server in ConfigurationGUISupervisor::setVersionAliasInActiveBackbone().",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1557520365"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2019-05-10T16:00:16.217-0500",
+"rawdata" : [
+
+]
+},
+"version" : "7",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2019-05-10T16:00:16.218-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2019-05-10T16:00:16.217-0500"
+},
+{
+"name" : "VersionAliasWizBackbone_v3",
+"assigned" : "2019-05-10T16:00:18.965-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T16:00:16.217-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2019-05-10T16:00:16.217-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2019-05-10T16:00:16.218-0500",
+"value" : {
+"name" : "7",
+"assigned" : "2019-05-10T16:00:16.218-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2019-05-10T16:00:16.218-0500",
+"value" : {
+"name" : "VersionAliasesTable",
+"assigned" : "2019-05-10T16:00:16.218-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2019-05-10T16:00:16.218-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2019-05-10T16:00:16.218-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T16:00:18.965-0500",
+"value" : {
+"name" : "VersionAliasWizBackbone_v3",
+"assigned" : "2019-05-10T16:00:18.965-0500"
+}
+}
+],
+"created" : "2019-05-10T16:00:16.217-0500"
+},
+"_id" : {
+"$oid" : "2464be8087be463b98825492"
+},
+"collection" : "VersionAliasesTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}
