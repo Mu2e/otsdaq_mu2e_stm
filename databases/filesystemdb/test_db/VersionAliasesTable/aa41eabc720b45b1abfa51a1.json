@@ -248,6 +248,46 @@
 {
 "name" : "TableEditWizBackbone_v102",
 "assigned" : "2019-03-27T13:29:18.996-0500"
+},
+{
+"name" : "TableEditWizBackbone_v103",
+"assigned" : "2019-05-08T16:23:43.761-0500"
+},
+{
+"name" : "TableEditWizBackbone_v104",
+"assigned" : "2019-05-10T11:01:16.531-0500"
+},
+{
+"name" : "TableEditWizBackbone_v105",
+"assigned" : "2019-05-10T11:19:23.258-0500"
+},
+{
+"name" : "TableEditWizBackbone_v106",
+"assigned" : "2019-05-10T11:44:53.060-0500"
+},
+{
+"name" : "TableEditWizBackbone_v107",
+"assigned" : "2019-05-10T12:01:43.904-0500"
+},
+{
+"name" : "GroupAliasTreeEditWizBackbone_v73",
+"assigned" : "2019-05-10T12:27:46.786-0500"
+},
+{
+"name" : "TableEditWizBackbone_v108",
+"assigned" : "2019-05-10T12:36:22.280-0500"
+},
+{
+"name" : "TableEditWizBackbone_v109",
+"assigned" : "2019-05-10T13:18:25.281-0500"
+},
+{
+"name" : "TableEditWizBackbone_v110",
+"assigned" : "2019-05-10T13:40:50.416-0500"
+},
+{
+"name" : "TableEditWizBackbone_v111",
+"assigned" : "2019-05-10T14:37:48.720-0500"
 }
 ],
 "changelog" : "notprovided",
@@ -669,6 +709,86 @@
 "value" : {
 "name" : "TableEditWizBackbone_v102",
 "assigned" : "2019-03-27T13:29:18.996-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-08T16:23:43.762-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v103",
+"assigned" : "2019-05-08T16:23:43.761-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T11:01:16.531-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v104",
+"assigned" : "2019-05-10T11:01:16.531-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T11:19:23.258-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v105",
+"assigned" : "2019-05-10T11:19:23.258-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T11:44:53.060-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v106",
+"assigned" : "2019-05-10T11:44:53.060-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T12:01:43.904-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v107",
+"assigned" : "2019-05-10T12:01:43.904-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T12:27:46.786-0500",
+"value" : {
+"name" : "GroupAliasTreeEditWizBackbone_v73",
+"assigned" : "2019-05-10T12:27:46.786-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T12:36:22.280-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v108",
+"assigned" : "2019-05-10T12:36:22.280-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T13:18:25.281-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v109",
+"assigned" : "2019-05-10T13:18:25.281-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T13:40:50.416-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v110",
+"assigned" : "2019-05-10T13:40:50.416-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-10T14:37:48.720-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v111",
+"assigned" : "2019-05-10T14:37:48.720-0500"
 }
 }
 ],

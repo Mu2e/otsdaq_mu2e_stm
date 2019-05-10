@@ -331,6 +331,14 @@
 {
 "name" : "testContext_v63",
 "assigned" : "2019-05-08T11:51:15.756-0500"
+},
+{
+"name" : "testContext_v64",
+"assigned" : "2019-05-08T14:43:02.637-0500"
+},
+{
+"name" : "testContext_v65",
+"assigned" : "2019-05-08T15:54:58.615-0500"
 }
 ],
 "changelog" : "notprovided",
@@ -408,6 +416,22 @@
 "value" : {
 "name" : "testContext_v63",
 "assigned" : "2019-05-08T11:51:15.756-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-08T14:43:02.637-0500",
+"value" : {
+"name" : "testContext_v64",
+"assigned" : "2019-05-08T14:43:02.637-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-08T15:54:58.615-0500",
+"value" : {
+"name" : "testContext_v65",
+"assigned" : "2019-05-08T15:54:58.615-0500"
 }
 }
 ],

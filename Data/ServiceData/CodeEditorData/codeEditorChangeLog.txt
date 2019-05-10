@@ -750,3 +750,5 @@ time=1557331285 authoradmin old-size=886 new-size=850 path=/home/mu2estm/test_st
 time=1557331290 authoradmin old-size=89075 new-size=89075 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/FECore/FEVInterfacesManager.cc
 time=1557331601 authoradmin old-size=3137 new-size=3130 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.cc
 time=1557331613 authoradmin old-size=850 new-size=843 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Configurable/Configurable.h
+time=1557349333 authoradmin old-size=23769 new-size=23802 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Macros/StringMacros.cc
+time=1557349655 authoradmin old-size=23802 new-size=23804 path=/home/mu2estm/test_stand/ots/srcs//otsdaq/otsdaq-core/Macros/StringMacros.cc

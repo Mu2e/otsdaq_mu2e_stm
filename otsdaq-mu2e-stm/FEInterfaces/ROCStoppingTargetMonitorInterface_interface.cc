@@ -133,14 +133,14 @@ void ROCStoppingTargetMonitorInterface::configure(void) try {
   this->writeRegister(0,1);
   __MCOUT_INFO__("... STM ROC Register 0, Write 1, Read " << this->readRegister(0) << __E__);
 
-  //this->writeRegister(1,2);
-  //__MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
+  this->writeRegister(1,2);
+  __MCOUT_INFO__("... STM ROC Register 1, Write 2, Read " << this->readRegister(1) << __E__);
 
-  //this->writeRegister(2,3);
-  //__MCOUT_INFO__("... STM ROC Register 2, Write 3, Read " << this->readRegister(2) << __E__);
+  this->writeRegister(2,3);
+  __MCOUT_INFO__("... STM ROC Register 2, Write 3, Read " << this->readRegister(2) << __E__);
 
-  //this->writeRegister(3,4);
-  //__MCOUT_INFO__("... STM ROC Register 3, Write 4, Read " << this->readRegister(3) << __E__);
+  this->writeRegister(3,4);
+  __MCOUT_INFO__("... STM ROC Register 3, Write 4, Read " << this->readRegister(3) << __E__);
 
 
 
