@@ -50,6 +50,12 @@ public:
   private:
   unsigned int STMParameter_1_;
   bool STMParameter_2_;
+  std::string STMParameter_3_;
+  unsigned int number_of_good_events_;
+  unsigned int number_of_bad_events_;
+  unsigned int number_of_empty_events_;
+//  std::ofstream datafile_;
+  unsigned int event_number_;
 };
 
 } // namespace ots

@@ -1,0 +1,130 @@
+{
+"document" : {
+"data" : {
+"NAME" : "MU2E_GLOBALS_TABLE",
+"COMMENT" : "Auto-generated from mock-up.",
+"AUTHOR" : "admin",
+"CREATION_TIME" : 1559598081,
+"COL_TYPES" : {
+"UID" : "VARCHAR2",
+"NUMBER_OF_LOOPBACKS" : "NUMBER",
+"NUMBER_OF_CAPTAN_PULSES" : "NUMBER",
+"COMMENT_DESCRIPTION" : "VARCHAR2",
+"AUTHOR" : "VARCHAR2",
+"RECORD_INSERTION_TIME" : "TIMESTAMP WITH TIMEZONE"
+},
+"DATA_SET" : [
+{
+"UID" : "SyncDemoConfig",
+"NUMBER_OF_LOOPBACKS" : "0",
+"NUMBER_OF_CAPTAN_PULSES" : "0",
+"COMMENT_DESCRIPTION" : "No Comment",
+"AUTHOR" : "admin",
+"RECORD_INSERTION_TIME" : "1559598065"
+}
+]
+},
+"metadata" : {
+
+},
+"search" : [
+
+]
+},
+"comments" : [
+
+],
+"origin" : {
+"source" : "template",
+"name" : "notprovided",
+"format" : "json",
+"created" : "2019-06-03T16:41:21.237-0500",
+"rawdata" : [
+
+]
+},
+"version" : "18",
+"entities" : [
+{
+"name" : "OTSROOT",
+"assigned" : "2019-06-03T16:41:21.239-0500"
+}
+],
+"configurations" : [
+{
+"name" : "notprovided",
+"assigned" : "2019-06-03T16:41:21.238-0500"
+},
+{
+"name" : "defaultConfig_v159",
+"assigned" : "2019-06-03T16:41:26.668-0500"
+}
+],
+"changelog" : "notprovided",
+"bookkeeping" : {
+"isdeleted" : false,
+"isreadonly" : false,
+"updates" : [
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-06-03T16:41:21.238-0500",
+"value" : {
+"name" : "notprovided",
+"assigned" : "2019-06-03T16:41:21.238-0500"
+}
+},
+{
+"event" : "setVersion",
+"timestamp" : "2019-06-03T16:41:21.238-0500",
+"value" : {
+"name" : "18",
+"assigned" : "2019-06-03T16:41:21.238-0500"
+}
+},
+{
+"event" : "setCollection",
+"timestamp" : "2019-06-03T16:41:21.238-0500",
+"value" : {
+"name" : "Mu2eGlobalsTable",
+"assigned" : "2019-06-03T16:41:21.238-0500"
+}
+},
+{
+"event" : "addEntity",
+"timestamp" : "2019-06-03T16:41:21.239-0500",
+"value" : {
+"name" : "OTSROOT",
+"assigned" : "2019-06-03T16:41:21.239-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-06-03T16:41:26.668-0500",
+"value" : {
+"name" : "defaultConfig_v159",
+"assigned" : "2019-06-03T16:41:26.668-0500"
+}
+}
+],
+"created" : "2019-06-03T16:41:21.237-0500"
+},
+"_id" : {
+"$oid" : "c7bfbebebf02412eae8010be"
+},
+"collection" : "Mu2eGlobalsTable",
+"aliases" : {
+"active" : [
+
+],
+"history" : [
+
+]
+},
+"runs" : [
+
+],
+"attachments" : [
+
+],
+"configtype" : "notprovided"
+}

@@ -78,6 +78,14 @@
 {
 "name" : "VersionAliasWizBackbone_v5",
 "assigned" : "2019-05-10T16:51:23.442-0500"
+},
+{
+"name" : "TableEditWizBackbone_v113",
+"assigned" : "2019-05-12T18:14:34.882-0500"
+},
+{
+"name" : "GroupAliasTreeEditWizBackbone_v74",
+"assigned" : "2019-06-03T16:41:32.480-0500"
 }
 ],
 "changelog" : "notprovided",
@@ -123,6 +131,22 @@
 "value" : {
 "name" : "VersionAliasWizBackbone_v5",
 "assigned" : "2019-05-10T16:51:23.442-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-05-12T18:14:34.882-0500",
+"value" : {
+"name" : "TableEditWizBackbone_v113",
+"assigned" : "2019-05-12T18:14:34.882-0500"
+}
+},
+{
+"event" : "addConfiguration",
+"timestamp" : "2019-06-03T16:41:32.480-0500",
+"value" : {
+"name" : "GroupAliasTreeEditWizBackbone_v74",
+"assigned" : "2019-06-03T16:41:32.480-0500"
 }
 }
 ],
