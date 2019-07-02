@@ -62,7 +62,7 @@ void ROCStoppingTargetMonitorInterface::writeROCRegister(uint16_t address,
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readROCRegister(uint16_t address)
+uint16_t ROCStoppingTargetMonitorInterface::readROCRegister(uint16_t address)
 {
 	__FE_COUT__ << "Calling read ROC register: link number " << std::dec << linkID_
 	            << ", address = " << address << __E__;
@@ -94,7 +94,7 @@ void ROCStoppingTargetMonitorInterface::writeEmulatorRegister(uint16_t address,
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readEmulatorRegister(uint16_t address)
+uint16_t ROCStoppingTargetMonitorInterface::readEmulatorRegister(uint16_t address)
 {
 	__FE_COUT__ << "Calling read ROC Emulator register: link number " << std::dec
 	            << linkID_ << ", address = " << address << __E__;
