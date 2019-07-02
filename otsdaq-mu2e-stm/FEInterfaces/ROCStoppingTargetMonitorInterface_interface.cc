@@ -10,24 +10,23 @@ using namespace ots;
 
 //=========================================================================================
 ROCStoppingTargetMonitorInterface::ROCStoppingTargetMonitorInterface(
-    const std::string &rocUID,
-    const ConfigurationTree &theXDAQContextConfigTree,
-    const std::string &theConfigurationPath)
-    : ROCCoreVInterface(rocUID, theXDAQContextConfigTree,
-                        theConfigurationPath) {
-  INIT_MF("ROCStoppingTargetMonitorInterface");
+    const std::string&       rocUID,
+    const ConfigurationTree& theXDAQContextConfigTree,
+    const std::string&       theConfigurationPath)
+    : ROCCoreVInterface(rocUID, theXDAQContextConfigTree, theConfigurationPath)
+{
+	INIT_MF("ROCStoppingTargetMonitorInterface");
 
-  	__MCOUT_INFO__("ROCStoppingTargetMonitorInterface instantiated with link: "
-					<< linkID_ << " and EventWindowDelayOffset = " << delay_
-					<< __E__);
+	__MCOUT_INFO__("ROCStoppingTargetMonitorInterface instantiated with link: "
+	               << linkID_ << " and EventWindowDelayOffset = " << delay_ << __E__);
 
 	ConfigurationTree rocTypeLink =
-		 Configurable::getSelfNode().getNode("ROCTypeLinkTable");
-
+	    Configurable::getSelfNode().getNode("ROCTypeLinkTable");
 
 	STMParameter_1_ = rocTypeLink.getNode("NumberParam1").getValue<int>();
-		
+
 	STMParameter_2_ = rocTypeLink.getNode("TrueFalseParam2").getValue<bool>();
+
 	STMParameter_3_ = rocTypeLink.getNode("tempColumn1").getValueAsString();
 				
 	//std::string STMParameter_3 = rocTypeLink.getNode("STMMustBeUniqueParam1").getValue<std::string>();
@@ -36,95 +35,97 @@ ROCStoppingTargetMonitorInterface::ROCStoppingTargetMonitorInterface(
         __FE_COUTV__(STMParameter_2_);
     //    __FE_COUTV__(STMParameter_3);                                
                  
+
 }
 
 //==========================================================================================
-ROCStoppingTargetMonitorInterface::~ROCStoppingTargetMonitorInterface(void) {
-  // NOTE:: be careful not to call __FE_COUT__ decoration because it uses the
-  // tree and it may already be destructed partially
-  __COUT__ << FEVInterface::interfaceUID_ << " Destructor" << __E__;
+ROCStoppingTargetMonitorInterface::~ROCStoppingTargetMonitorInterface(void)
+{
+	// NOTE:: be careful not to call __FE_COUT__ decoration because it uses the
+	// tree and it may already be destructed partially
+	__COUT__ << FEVInterface::interfaceUID_ << " Destructor" << __E__;
 }
 
 //==================================================================================================
-void ROCStoppingTargetMonitorInterface::writeROCRegister(
-    unsigned address, unsigned data_to_write) {
-  __FE_COUT__ << "Calling write ROC register: link number " << std::dec
-              << linkID_ << ", address = " << address
-              << ", write data = " << data_to_write << __E__;
+void ROCStoppingTargetMonitorInterface::writeROCRegister(uint16_t address,
+                                                         uint16_t data_to_write)
+{
+	__FE_COUT__ << "Calling write ROC register: link number " << std::dec << linkID_
+	            << ", address = " << address << ", write data = " << data_to_write
+	            << __E__;
 
-  bool requestAck = false;
+	bool requestAck = false;
 
-  thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck);
+	thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck);
 
-  return;
+	return;
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readROCRegister(unsigned address) {
+int ROCStoppingTargetMonitorInterface::readROCRegister(uint16_t address)
+{
+	__FE_COUT__ << "Calling read ROC register: link number " << std::dec << linkID_
+	            << ", address = " << address << __E__;
 
-  __FE_COUT__ << "Calling read ROC register: link number " << std::dec
-              << linkID_ << ", address = " << address << __E__;
+	int read_data = 0;
 
-  int read_data = 0;
+	try
+	{
+		read_data = thisDTC_->ReadROCRegister(linkID_, address, 1);
+	}
+	catch(...)
+	{
+		__COUT__ << "DTC failed DCS read" << __E__;
+		read_data = -999;
+	}
 
-  try
-  {
-  read_data = thisDTC_->ReadROCRegister(linkID_, address, 1);
-  }
-  catch(...)
-  {
-  __COUT__ << "DTC failed DCS read" << __E__;	
-  read_data = -999;
-  }
-
-  return read_data;
-
+	return read_data;
 }
 
 //============================================================================================
-void ROCStoppingTargetMonitorInterface::writeEmulatorRegister(
-    unsigned address, unsigned data_to_write) {
-  __FE_COUT__ << "Calling write ROC Emulator register: link number " << std::dec
-              << linkID_ << ", address = " << address
-              << ", write data = " << data_to_write << __E__;
+void ROCStoppingTargetMonitorInterface::writeEmulatorRegister(uint16_t address,
+                                                              uint16_t data_to_write)
+{
+	__FE_COUT__ << "Calling write ROC Emulator register: link number " << std::dec
+	            << linkID_ << ", address = " << address
+	            << ", write data = " << data_to_write << __E__;
 
-  return;
+	return;
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readEmulatorRegister(unsigned address) {
+int ROCStoppingTargetMonitorInterface::readEmulatorRegister(uint16_t address)
+{
+	__FE_COUT__ << "Calling read ROC Emulator register: link number " << std::dec
+	            << linkID_ << ", address = " << address << __E__;
 
-  __FE_COUT__ << "Calling read ROC Emulator register: link number " << std::dec
-              << linkID_ << ", address = " << address << __E__;
-
-  return -1;
+	return -1;
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readTimestamp() {
-  return this->readRegister(12);
+int ROCStoppingTargetMonitorInterface::readTimestamp() { return this->readRegister(12); }
+
+//==================================================================================================
+void ROCStoppingTargetMonitorInterface::writeDelay(uint16_t delay)
+{
+	this->writeRegister(21, delay);
+	return;
 }
 
 //==================================================================================================
-void ROCStoppingTargetMonitorInterface::writeDelay(unsigned delay) {
-  this->writeRegister(21, delay);
-  return;
+int ROCStoppingTargetMonitorInterface::readDelay() { return this->readRegister(7); }
+
+//==================================================================================================
+int ROCStoppingTargetMonitorInterface::readDTCLinkLossCounter()
+{
+	return this->readRegister(8);
 }
 
 //==================================================================================================
-int ROCStoppingTargetMonitorInterface::readDelay() {
-  return this->readRegister(7);
-}
-
-//==================================================================================================
-int ROCStoppingTargetMonitorInterface::readDTCLinkLossCounter() {
-  return this->readRegister(8);
-}
-
-//==================================================================================================
-void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter() {
-  this->writeRegister(24, 0x1);
-  return;
+void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter()
+{
+	this->writeRegister(24, 0x1);
+	return;
 }
 
 //==================================================================================================
