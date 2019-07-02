@@ -20,14 +20,16 @@
 #include <list>
 #include <queue>
 
-namespace ots {
-class STIBReceiver : public ots::UDPReceiver {
-public:
-  explicit STIBReceiver(fhicl::ParameterSet const &ps);
+namespace ots
+{
+class STIBReceiver : public ots::UDPReceiver
+{
+  public:
+	explicit STIBReceiver(fhicl::ParameterSet const& ps);
 
-private:
-  void ProcessData_(artdaq::FragmentPtrs &frags) override;
+  private:
+	void ProcessData_(artdaq::FragmentPtrs& frags) override;
 };
-} // namespace ots
+}  // namespace ots
 
 #endif /* artdaq_demo_Generators_ToySimulator_hh */
