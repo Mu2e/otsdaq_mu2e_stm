@@ -1,6 +1,6 @@
 #include "otsdaq-mu2e-stm/FEInterfaces/ROCStoppingTargetMonitorInterface.h"
 
-#include "otsdaq-core/Macros/InterfacePluginMacros.h"
+#include "otsdaq/Macros/InterfacePluginMacros.h"
 #include <unistd.h>//used for usleep(microseconds)
 
 using namespace ots;
