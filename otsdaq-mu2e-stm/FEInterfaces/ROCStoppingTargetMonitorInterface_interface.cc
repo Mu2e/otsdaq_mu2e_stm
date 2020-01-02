@@ -209,25 +209,25 @@ void ROCStoppingTargetMonitorInterface::configure(void) try {
   __FE_SS_THROW__;
 }
 
-//========================================================================================================================
+//==============================================================================
 void ROCStoppingTargetMonitorInterface::halt(void) {
   __MCOUT_INFO__("In ::halt()"<<event_number_);
   return;
 }
 
-//========================================================================================================================
+//==============================================================================
 void ROCStoppingTargetMonitorInterface::pause(void) {
   __MCOUT_INFO__("In ::pause()"<<event_number_);
   return;
 }
 
-//========================================================================================================================
+//==============================================================================
 void ROCStoppingTargetMonitorInterface::resume(void) {
   __MCOUT_INFO__("In ::resume()"<<event_number_);
   return;
 }
 
-//========================================================================================================================
+//==============================================================================
 void ROCStoppingTargetMonitorInterface::start(std::string runNumber)
 {
   number_of_good_events_ = 0;
@@ -238,7 +238,7 @@ void ROCStoppingTargetMonitorInterface::start(std::string runNumber)
   return;
 }
 
-//========================================================================================================================
+//==============================================================================
 void ROCStoppingTargetMonitorInterface::stop(void) {
   __MCOUT_INFO__("Stopping run " << std::dec << event_number_ << __E__);
   __MCOUT_INFO__("Stopping run reset nGood=0 from " << std::dec << number_of_good_events_ << __E__);
@@ -247,7 +247,7 @@ void ROCStoppingTargetMonitorInterface::stop(void) {
   return;
 }
 
-//========================================================================================================================
+//==============================================================================
 bool ROCStoppingTargetMonitorInterface::running(void) { 
 	event_number_++;
 	usleep(3000000);
