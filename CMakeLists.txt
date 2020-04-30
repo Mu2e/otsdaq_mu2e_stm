@@ -81,8 +81,10 @@ add_subdirectory(otsdaq-mu2e-stm)
 # Test Programs
 #add_subdirectory(test)
 
-# Documentation directory
-add_subdirectory(doc)
+# Documentation (to comment out if not needed DOXYGEN locally)
+if( $ENV{OTS_DOXY} MATCHES "DOIT" )
+	add_subdirectory(doc)
+endif()
 
 # UPS
 add_subdirectory(ups)
