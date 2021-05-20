@@ -69,18 +69,19 @@ find_ups_product( otsdaq_mu2e v1_00_00 )
  
  # XDAQ Extra setup
 find_ups_product( artdaq_database v1_03_07 )
-link_directories($ENV{ARTDAQ_DATABASE_LIB})
 find_ups_product( xdaq v16_7_0_1)
  include_directories($ENV{XDAQ_INC}/linux)
+link_directories($ENV{XDAQ_LIB})
+link_directories($ENV{ARTDAQ_DATABASE_LIB})
  set(XDAQ_BASIC_LIB_LIST 
-   $ENV{XDAQ_LIB}/libxcept.so
-   $ENV{XDAQ_LIB}/libxoap.so
-   $ENV{XDAQ_LIB}/libxdaq.so
-   $ENV{XDAQ_LIB}/libtoolbox.so
-   $ENV{XDAQ_LIB}/libxerces-c.so
+   xcept
+   xoap
+   xdaq
+   toolbox
+   xerces-c
    cgicc
  )
- set(XDAQ_XERCES-C $ENV{XDAQ_LIB}/libxerces-c.so)
+ set(XDAQ_XERCES-C xerces-c)
 
 
 # macros for art_dictionary and simple_plugin
