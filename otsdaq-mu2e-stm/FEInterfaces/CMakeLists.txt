@@ -8,7 +8,7 @@ simple_plugin(ROCStoppingTargetMonitorInterface "interface"
      Macros
      FECore
      Configurable
-     DTCInterface
+     pcie_linux_kernel_module::DTCInterface
      WorkLoopManager
      artdaq-core_Utilities
      ${XDAQ_XERCES-C}
