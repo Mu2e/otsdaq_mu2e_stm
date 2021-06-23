@@ -56,7 +56,7 @@ void ROCStoppingTargetMonitorInterface::writeROCRegister(uint16_t address,
 
 	bool requestAck = false;
 
-	thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck);
+        thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck, 0);
 
 	return;
 }
