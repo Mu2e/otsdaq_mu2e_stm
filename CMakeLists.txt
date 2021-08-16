@@ -61,7 +61,8 @@ find_ups_product( otsdaq_mu2e v1_00_00 )
 #find_ups_product( TRACE v3_03_00 )
 #find_ups_xdaq( v11_2_7 )
 #find_ups_root( v5_34_00 )
-#find_ups_boost( v1_50_0 filesystem
+find_ups_boost( v1_50_0 )
+# filesystem
 #                        program_options
 #                        unit_test_framework
 # )
