@@ -1,7 +1,7 @@
 # The parent line must be the first non-comment line in the file
 # This line defines the product name and version
 parent otsdaq_mu2e_stm
-defaultqual	e20:s105
+defaultqual	e20:s112
 
 # These optional lines define the installed directories where
 # headers, libraries, and executables will be found
@@ -18,13 +18,27 @@ fcldir      fq_dir      fcl
 
 #
 product			version		optional
-otsdaq_mu2e		v1_01_01
-cetbuildtools	v8_08_02	-	only_for_build
+otsdaq_mu2e		v1_01_02
+cetbuildtools	v8_13_04	-	only_for_build
 end_product_list
 
 # -nq- here means there is no qualifier
 # a "-" here means the dependent product is not required by the parent and will not be setup
 qualifier		otsdaq_mu2e		notes
+e20:s112:prof	e20:s112:prof	-std=c++17
+e20:s112:debug	e20:s112:debug	-std=c++17
+e19:s112:prof	e19:s112:prof	-std=c++17
+e19:s112:debug	e19:s112:debug	-std=c++17
+c7:s112:prof	c7:s112:prof	-std=c++17
+c7:s112:debug	c7:s112:debug	-std=c++17
+
+e20:s111:prof	e20:s111:prof	-std=c++17
+e20:s111:debug	e20:s111:debug	-std=c++17
+e19:s111:prof	e19:s111:prof	-std=c++17
+e19:s111:debug	e19:s111:debug	-std=c++17
+c7:s111:prof	c7:s111:prof	-std=c++17
+c7:s111:debug	c7:s111:debug	-std=c++17
+
 e20:s109:prof	e20:s109:prof	-std=c++17
 e20:s109:debug	e20:s109:debug	-std=c++17
 e19:s109:prof	e19:s109:prof	-std=c++17
