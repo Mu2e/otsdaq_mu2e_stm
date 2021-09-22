@@ -1,5 +1,5 @@
     
-simple_plugin(ROCStoppingTargetMonitorInterface "interface"
+basic_plugin(ROCStoppingTargetMonitorInterface "interface"
      otsdaq_mu2e::ROCCore
 )
 
