@@ -18,8 +18,8 @@ fcldir      fq_dir      fcl
 
 #
 product			version		optional
-otsdaq_mu2e		v1_01_02
-cetbuildtools	v8_13_04	-	only_for_build
+otsdaq_mu2e		v1_01_03
+cetmodules		v2_26_00	-	only_for_build
 end_product_list
 
 # -nq- here means there is no qualifier
