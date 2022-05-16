@@ -18,13 +18,16 @@ fcldir      fq_dir      fcl
 
 #
 product			version		optional
-otsdaq_mu2e		v1_01_05
-cetmodules		v2_26_00	-	only_for_build
+otsdaq_mu2e		v1_01_06
+cetmodules		v3_08_00	-	only_for_build
 end_product_list
 
 # -nq- here means there is no qualifier
 # a "-" here means the dependent product is not required by the parent and will not be setup
 qualifier		otsdaq_mu2e		notes
+e20:s116:prof	e20:s116:prof	-std=c++17
+e20:s116:debug	e20:s116:debug	-std=c++17
+
 e20:s114:prof	e20:s114:prof	-std=c++17
 e20:s114:debug	e20:s114:debug	-std=c++17
 end_qualifier_list
