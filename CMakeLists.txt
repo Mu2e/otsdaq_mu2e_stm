@@ -1,5 +1,5 @@
 # ======================================================================
-#  otsdaq-mu2e-stm main build file
+#  otsdaq_mu2e_stm main build file
 #
 #  cd .../path/to/build/directory
 #  source .../path/to/otsdaq-mu2e-stm/ups/setup_for_development
