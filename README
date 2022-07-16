@@ -1,0 +1,61 @@
+How this Mu2e Stopping Target Monitor repository was generated
+
+on mu2edaq01...
+$ ksu mu2edaq
+$ cd ~mu2edaq/sync_demo/ots/
+$ source setup_ots.sh
+
+#########
+# create the directory based on the ostdaq demo
+#########
+$ cd $MRB_SOURCE
+$ create_ots_repo.sh otsdaq_mu2e_stm
+$ mrb gitCheckout -d git_tmp ssh://p-mu2e-otsdaq-stm@cdcvs.fnal.gov/cvs/projects/mu2e-otsdaq-stm
+$ cp -r git_tmp/.git otsdaq_mu2e_stm/.git
+$ cp -r git_tmp/README otsdaq_mu2e_stm/
+$ rm -rf git_tmp/
+
+#########
+# get the emulator/modified files from the calorimeter repository
+#########
+$ cd $MRB_SOURCE
+$ mrb gitCheckout -d git_tmp ssh://p-mu2e-otsdaq-calorimeter@cdcvs.fnal.gov/cvs/projects/mu2e-otsdaq-calorimeter
+$ cp -p git_tmp/otsdaq-mu2e-calorimeter/FEInterfaces/FEOtsEthernetProgramInterface_interface.cc otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ cp -p git_tmp/otsdaq-mu2e-calorimeter/FEInterfaces/FEOtsEthernetProgramInterface.h otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ cp -p git_tmp/otsdaq-mu2e-calorimeter/FEInterfaces/ROCCalorimeterEmulator_interface.cc otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ cp -p git_tmp/otsdaq-mu2e-calorimeter/FEInterfaces/ROCCalorimeterEmulator.h otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ cd otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator.h > ROCStoppingTargetMonitorEmulator.h
+$ sed 's/Calorimeter/StoppingTargetMonitor/' ROCCalorimeterEmulator_interface.cc | sed 's/Calorimeter/StoppingTargetMonitor/' | sed 's/calorimeter/stm/' > ROCStoppingTargetMonitorEmulator_\
+interface.cc
+
+
+#######
+# modify CMake files in order to compile
+#######
+$ cd $MRB_SOURCE
+$ cp -p git_tmp/otsdaq-mu2e-calorimeter/FEInterfaces/CMakeLists.txt otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ cd $MRB_SOURCE/otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/
+$ sed 's/Calorimeter/StoppingTargetMonitor/' CMakeLists.txt > tmp.txt
+$ mv tmp.txt CMakeLists.txt
+$ cd $MRB_SOURCE/otsdaq_mu2e_stm/otsdaq-mu2e-stm/
+$ sed 's/\#add_subdirectory(FE/add_subdirectory(FE/' CMakeLists.txt > tmp.txt
+$ mv tmp.txt CMakeLists.txt
+$ cd $MRB_SOURCE
+$ cp otsdaq_mu2e_calorimeter/ups/product_deps otsdaq_mu2e_stm/ups/
+$ sed 's/calorimeter/stm/' otsdaq_mu2e_stm/ups/product_deps > tmp.txt
+$ mv tmp.txt otsdaq_mu2e_stm/ups/product_deps
+
+#######
+# clean up and prepare mrb
+#######
+$ cd $MRB_SOURCE
+$ rm -rf git_tmp
+$ rm otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCCalorimeterEmulator.h
+$ rm otsdaq_mu2e_stm/otsdaq-mu2e-stm/FEInterfaces/ROCCalorimeterEmulator_interface.cc
+$ mrb uc
+
+cd ~mu2edaq/sync_demo/ots
+mrb z
+mrbsetenv
+mrb b
