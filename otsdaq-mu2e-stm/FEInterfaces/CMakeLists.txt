@@ -1,6 +1,7 @@
     
-basic_plugin(ROCStoppingTargetMonitorInterface "interface"
-     otsdaq_mu2e::ROCCore
+include(otsdaq::FEInterface) 
+
+cet_build_plugin(ROCStoppingTargetMonitorInterface otsdaq::FEInterface LIBRARIES REG otsdaq_mu2e::ROCCore
 )
 
 install_headers()
