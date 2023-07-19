@@ -18,7 +18,7 @@ fcldir      fq_dir      fcl
 
 #
 product			version		optional
-otsdaq_mu2e		v1_03_01
+otsdaq_mu2e		v1_03_02
 cetmodules		v3_21_02	-	only_for_build
 end_product_list
 
