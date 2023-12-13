@@ -46,42 +46,6 @@ ROCStoppingTargetMonitorInterface::~ROCStoppingTargetMonitorInterface(void)
 	__COUT__ << FEVInterface::interfaceUID_ << " Destructor" << __E__;
 }
 
-//==================================================================================================
-void ROCStoppingTargetMonitorInterface::writeROCRegister(uint16_t address,
-                                                         uint16_t data_to_write)
-{
-	__FE_COUT__ << "Calling write ROC register: link number " << std::dec << linkID_
-	            << ", address = " << address << ", write data = " << data_to_write
-	            << __E__;
-
-	bool requestAck = false;
-
-        thisDTC_->WriteROCRegister(linkID_, address, data_to_write, requestAck, 0);
-
-	return;
-}
-
-//==================================================================================================
-uint16_t ROCStoppingTargetMonitorInterface::readROCRegister(uint16_t address)
-{
-	__FE_COUT__ << "Calling read ROC register: link number " << std::dec << linkID_
-	            << ", address = " << address << __E__;
-
-	int read_data = 0;
-
-	try
-	{
-		read_data = thisDTC_->ReadROCRegister(linkID_, address, 1);
-	}
-	catch(...)
-	{
-		__COUT__ << "DTC failed DCS read" << __E__;
-		read_data = -999;
-	}
-
-	return read_data;
-}
-
 //============================================================================================
 void ROCStoppingTargetMonitorInterface::writeEmulatorRegister(uint16_t address,
                                                               uint16_t data_to_write)
@@ -100,32 +64,6 @@ uint16_t ROCStoppingTargetMonitorInterface::readEmulatorRegister(uint16_t addres
 	            << linkID_ << ", address = " << address << __E__;
 
 	return -1;
-}
-
-//==================================================================================================
-int ROCStoppingTargetMonitorInterface::readTimestamp() { return this->readRegister(12); }
-
-//==================================================================================================
-void ROCStoppingTargetMonitorInterface::writeDelay(uint16_t delay)
-{
-	this->writeRegister(21, delay);
-	return;
-}
-
-//==================================================================================================
-int ROCStoppingTargetMonitorInterface::readDelay() { return this->readRegister(7); }
-
-//==================================================================================================
-int ROCStoppingTargetMonitorInterface::readDTCLinkLossCounter()
-{
-	return this->readRegister(8);
-}
-
-//==================================================================================================
-void ROCStoppingTargetMonitorInterface::resetDTCLinkLossCounter()
-{
-	this->writeRegister(24, 0x1);
-	return;
 }
 
 //==================================================================================================
