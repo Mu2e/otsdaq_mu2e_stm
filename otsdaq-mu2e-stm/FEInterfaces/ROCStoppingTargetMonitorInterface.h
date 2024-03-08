@@ -1,5 +1,5 @@
 #ifndef _otsdaq_mu2e_stm_ROCStoppingTargetMonitorInterface_h_
-#define _otsdaq_mu2e_stm__ROCStoppingTargetMonitorInterface_h_
+#define _otsdaq_mu2e_stm_ROCStoppingTargetMonitorInterface_h_
 
 #include <sstream>
 #include <string>
