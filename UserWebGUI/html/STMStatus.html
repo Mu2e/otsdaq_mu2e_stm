@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<title>STM VST Status</title>
+
+	<link href='/WebPath/css/fonts.css?family=Inconsolata:400' rel='stylesheet' type='text/css'>
+	<link href='/WebPath/css/fonts.css?family=Comfortaa:400' rel='stylesheet' type='text/css'>
+		
+	
+	
+	<!-- FTBFWebPath is link (> ln -s linkpath linkname) in otsdaq_utilities/WebPath -->
+	<link rel="stylesheet" type="text/css" href="/WebPath/css/library/pretty-checkbox.min.css">
+	<link rel="stylesheet" type="text/css" href="/WebPath/css/library/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="/WebPath/css/ConfigurationAPI.css">
+<!--	<link rel="stylesheet" type="text/css" href="/WebPath/css/SmartLaunch.css"> -->
+	
+	
+	<script type="text/JavaScript" src="/WebPath/js/Globals.js"></script>	
+	<script type="text/JavaScript" src="/WebPath/js/Debug.js"></script>	
+	<script type="text/JavaScript" src="/WebPath/js/DesktopContent.js"></script>
+  <script type="text/JavaScript" src="/WebPath/js/js_lib/ConfigurationAPI.js"></script>
+<!--	<script type="text/JavaScript" src="/WebPath/js/js_lib/SimpleContextMenu.js"></script> -->
+<!--	<script type="text/JavaScript" src="/WebPath/js/SmartLaunch.js"></script> -->
+  
+  <!-- <script src="https://cdn.plot.ly/plotly-2.34.0.min.js" charset="utf-8"></script> //  -->
+
+	<body>
+    <div id="drawing" style="position: absolute; inset: 1px;"></div>
+
+    <!-- <div id="tester" style="position: bottom-right; width:600px;height:250px;"></div> -->
+
+    <!-- <script> -->
+
+	  <!--   TESTER = document.getElementById('tester'); -->
+      
+	  <!--   Plotly.newPlot( TESTER, [{ -->
+	  <!--       x: [1, 2, 3, 4, 5],           -->
+	  <!--       y: [1, 2, 4, 8, 16] }], { -->
+	  <!--           margin: { t: 0 } } ); -->
+    <!-- </script> -->
+   </body>
+
+  <script type='module'>
+    import { draw, httpRequest, redraw, decodeUrl, registerForResize, GridDisplay } from 'https://root.cern/js/latest/modules/main.mjs';
+    
+    let mdi = null, drawopt = null, addr = null;
+
+    function updateGUI() {
+        let request_addr = addr || "/WebPath/UserWebPath/json_dqm/c_stmdqm.json";
+        httpRequest(request_addr, 'object').then(canvas => {
+//            console.log(canvas);
+            // when use grid layout, use counter value stored in request itself
+            let frame = mdi ? mdi.findFrame(`item${request_count % mdi.numGridFrames()}`, true) : 'drawing';
+            
+            // redraw canvas at specified frame
+            redraw(frame, canvas, drawopt).then(() => {
+                // let adjust drawing when browser will be resized
+                //                if (!request_count) registerForResize('drawing');
+                registerForResize('drawing');
+            });
+        }).catch(() => { document.getElementById('drawing').innerHTML = `"<h3>Can not get ${request_addr} from the server</h3>`;});
+    }
+
+    let d = decodeUrl();
+    let monitor = parseInt(d.get('monitoring') || '100'); // time in milliseconds
+
+    drawopt = d.get('opt');
+    addr = d.get('addr');
+
+    let layout = d.get('layout');
+
+    if (layout)
+        mdi = new GridDisplay('drawing', layout);
+
+    setInterval(updateGUI, monitor);
+   </script>
+
+	<script>		
+	//=====================================================================================
+	//init ~~
+	//	init called once body has loaded
+	function init() 
+	{		
+      //		SmartLaunch.create();
+      //      let priority = 1;
+      // ConfigurationAPI.init()
+      // Debug.mode = 1;
+      // console.log("HERE");
+      // var groups = ConfigurationAPI.getActiveGroups;
+      // console.log(groups.length);
+      // console.log(groups);
+      // for (let i_group = 0; i_group < groups.length; ++i_group) 
+//      var req = new XMLHttpRequest();
+//      DesktopContent.getXMLValue(req, "");
+      //      console.log(req);
+
+//      let UID_ = "stmReader0";
+  }
+	</script>
+</head>
+	
+
+<body onload='//init() called by DesktopContent.js'>		
+	<h1>Title 1</h1>
+</body>
+	
+</html>
+
+	

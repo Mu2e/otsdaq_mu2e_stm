@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+<head>
+	<title>STM DQM File Viewer</title>
+
+	<link href='/WebPath/css/fonts.css?family=Inconsolata:400' rel='stylesheet' type='text/css'>
+	<link href='/WebPath/css/fonts.css?family=Comfortaa:400' rel='stylesheet' type='text/css'>
+		
+	
+	
+	<!-- FTBFWebPath is link (> ln -s linkpath linkname) in otsdaq_utilities/WebPath -->
+	<link rel="stylesheet" type="text/css" href="/WebPath/css/library/pretty-checkbox.min.css">
+	<link rel="stylesheet" type="text/css" href="/WebPath/css/library/MaterialDesign-Webfont-master/css/materialdesignicons.min.css">
+	
+	
+	<script type="text/JavaScript" src="/WebPath/js/Globals.js"></script>	
+	<script type="text/JavaScript" src="/WebPath/js/Debug.js"></script>	
+	<script type="text/JavaScript" src="/WebPath/js/DesktopContent.js"></script>
+
+  
+  <script type='module'>
+    import { draw, httpRequest, redraw, decodeUrl, registerForResize, GridDisplay } from 'https://root.cern/js/latest/modules/main.mjs';
+    import { buildGUI } from 'https://root.cern/js/latest/modules/gui.mjs';
+
+    console.log("HERE");
+    window.buildGUI = buildGUI; // export buildGUI so that it can be used later
+   </script>   
+
+	<script>		
+	//=====================================================================================
+	//init ~~
+	//	init called once body has loaded
+	function init() 
+	  {
+            // Get a list of file
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "/WebPath/UserWebPath/dqm_files/");
+    xhr.send();
+    xhr.responseType = "text";
+    xhr.onload = () => {
+        let file_list="";
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            var full_file_list=xhr.responseText.split('\n')
+//            console.log("Full=",full_file_list);
+            for (let i_file=full_file_list.length-1; i_file >= 0; --i_file) { // go backwards so most recent are at the top
+                if (full_file_list[i_file].includes(".root")) {
+                    file_list = file_list+";"+full_file_list[i_file];
+                }
+            }
+            console.log("notfull=",file_list);
+            console.log(document.getElementById("simpleGUI"))
+            document.getElementById("simpleGUI").setAttribute('files', file_list);
+            buildGUI('simpleGUI');
+        } else {
+            console.log(`Error: ${xhr.status}`);
+        }
+    };
+
+ 	  }
+	</script>
+</head>
+
+
+<body onload='//init() called by DesktopContent.js'>		
+	<h1>STM DQM File Viewer Loading...</h1>
+
+  <div id="simpleGUI", path="/WebPath/UserWebPath/dqm_files/", files=""></div>
+
+  <script>
+    //    console.log(document.getElementById('simpleGUI'))
+  </script>
+
+
+  <!-- Run Number:  -->
+  <!-- <input type="text" id="run_number" value=""/> -->
+  <!-- <button onclick="buildOurGUI()">Get Run</button> -->
+  
+  <!-- <script> -->
+  <!--   function buildOurGUI() { -->
+
+  <!--       var run_number = document.getElementById('run_number').value -->
+  <!--       var file_name = "stmDQM"+run_number.toString()+".root"; -->
+  <!--       document.getElementById("simpleGUI").setAttribute('files', file_name); -->
+  <!--       buildGUI('simpleGUI'); -->
+    
+  <!--   } -->
+  <!-- </script> -->
+</body>
+	
+</html>
+
+	
