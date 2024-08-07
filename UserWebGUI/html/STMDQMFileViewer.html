@@ -41,12 +41,16 @@
         let file_list="";
         if (xhr.readyState == 4 && xhr.status == 200) {
             var full_file_list=xhr.responseText.split('\n')
-//            console.log("Full=",full_file_list);
+            //            console.log("Full=",full_file_list);
+            var file_list_arr=[]
             for (let i_file=full_file_list.length-1; i_file >= 0; --i_file) { // go backwards so most recent are at the top
                 if (full_file_list[i_file].includes(".root")) {
-                    file_list = file_list+";"+full_file_list[i_file];
+                    file_list_arr.push(full_file_list[i_file]);
                 }
             }
+            file_list_arr.sort();
+            file_list_arr.reverse(); // do reverse alphabetical order so that we get the latest at the top
+            let file_list = file_list_arr.join(';');
             console.log("notfull=",file_list);
             console.log(document.getElementById("simpleGUI"))
             document.getElementById("simpleGUI").setAttribute('files', file_list);
