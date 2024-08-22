@@ -33,8 +33,8 @@ find_package(otsdaq_mu2e 1.02.00 REQUIRED)
 
 
  # XDAQ Extra setup
- include_directories($ENV{XDAQ_INC} $ENV{XDAQ_INC}/linux)
-link_directories($ENV{XDAQ_LIB})
+ include_directories($ENV{XDAQ_ROOT}/include/linux $ENV{XDAQ_ROOT}/include)
+link_directories($ENV{XDAQ_ROOT}/lib)
 
 
 include(BuildPlugins)
