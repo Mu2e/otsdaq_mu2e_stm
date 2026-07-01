@@ -293,7 +293,7 @@ void FormEvents::insert_missing_ewts(std::shared_ptr<DataStruct>& buffer) {
     if (lost_EWT_count > event_slots_available) {
 	logger->log("FormEvents:insert_missing_ewts: Error! Number of EWTs "
 		    "lost for buffer " + std::to_string(lost_EWT_count) + 
-		    "exceeds events space left of " + std::to_string(event_slots_available), 0);
+		    " exceeds events space left of " + std::to_string(event_slots_available), 0);
 	return;
     }
 
