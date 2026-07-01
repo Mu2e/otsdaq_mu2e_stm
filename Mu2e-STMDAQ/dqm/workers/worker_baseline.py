@@ -93,7 +93,7 @@ def initialise_plots():
             y=1.02,
             xanchor="center",
             x=0.4,
-            font=dict(size=16)
+            font=dict(size=12)
         )
     ))
     
@@ -149,7 +149,8 @@ def initialise_plots():
 
     empty_hist = go.Figure(layout=dict(
         title=dict(
-            text=f"Baseline histogram and fit using {window_s:.1f} us window",
+            #text=f"Baseline histogram and fit using {window_s:.1f} us window",
+            text=f"Baseline histogram and fit since start of run",
             font=dict(size=20, family="Arial", color="black"),
             x=0.5,  # Center title (optional)
             xanchor="center"
@@ -229,10 +230,14 @@ def draw_baseline(history):
     history["x"].append(dt)
     history["prev"].append(mean_prev)
     history["prev_rms"].append(rms_prev)
-    history["avg"].append(mean_avg)
-    history["avg_rms"].append(rms_avg)
-    history["curr"].append(mean_curr)
-    history["curr_rms"].append(rms_curr)
+    #history["avg"].append(mean_avg)
+    #history["avg_rms"].append(rms_avg)
+    #history["curr"].append(mean_curr)
+    #history["curr_rms"].append(rms_curr)
+    history["avg"].append(fit_mean_all)
+    history["avg_rms"].append(fit_sigma_all)
+    history["curr"].append(fit_mean_window)
+    history["curr_rms"].append(fit_sigma_window)
     history["last_timestamp"] = timestamp_ns
 
     # (Optional) Keep only last N points to limit graph load
@@ -261,7 +266,7 @@ def draw_baseline(history):
                                y=prev_upper,
                                mode='lines',
                                line=dict(color='blue', dash='dash'),
-                               name=f"Reference (e.g. average from previous run) = {last_prev:.2f} ± {last_prev_rms:.2f}\u00A0\u00A0\u00A0"))
+                               name=f"Reference<br>= {last_prev:.2f} ± {last_prev_rms:.2f}\u00A0\u00A0\u00A0"))
     time_fig.add_trace(go.Scattergl(x=hx, # lower line
                                y=prev_lower,
                                mode='lines',
@@ -272,7 +277,7 @@ def draw_baseline(history):
     time_fig.add_trace(go.Scatter(x=hx,
                              y=history["avg"],
                              mode='lines+markers',
-                             name=f"Rolling average (this run) = {last_avg:.2f} ± {last_avg_rms:.2f}\u00A0\u00A0\u00A0",
+                             name=f"Rolling average<br>= {last_avg:.2f} ± {last_avg_rms:.2f}\u00A0\u00A0\u00A0",
                              line=dict(dash='dash'),
                              marker=dict(color='green', size=6),
                              error_y=dict(type='data', array=history["avg_rms"],
@@ -282,7 +287,7 @@ def draw_baseline(history):
     time_fig.add_trace(go.Scatter(x=hx,
                              y=history["curr"],
                              mode='markers',
-                             name=f"Single buffer average = {last_curr:.2f} ± {last_curr_rms:.2f}\u00A0\u00A0\u00A0",
+                             name=f"{window_s:.1f} s window average<br>= {last_curr:.2f} ± {last_curr_rms:.2f}\u00A0\u00A0\u00A0",
                              marker=dict(color='red', size=6),
                              error_y=dict(type='data', array=history["curr_rms"],
                                           visible=True)))

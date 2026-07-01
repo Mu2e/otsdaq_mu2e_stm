@@ -28,6 +28,7 @@ if expanded_path == get_xml_node_value("ch0_host"):
     channel = 0
     name = "HPGe"
     port_num = 8050
+    dqm_core_id += 24 #Numa 1 for HPGe
 elif expanded_path == get_xml_node_value("ch1_host"):
     channel = 1
     name = "LaBr3"
