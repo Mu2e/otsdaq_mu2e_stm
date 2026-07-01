@@ -60,11 +60,11 @@ void STMDAQSupervisor::transitionConfiguring(toolbox::Event::Reference e)
   int currentChannel = stmFE_->return_channel();
   //HPGe DQM start
   if (currentChannel == 0){
-    std::string commandResponse = StringMacros::exec("nohup python $STM_DQM > $STM_DQM_LOG/dqmout_LaBr.log 2>&1 &");
+    std::string commandResponse = StringMacros::exec("nohup python $STM_DQM > $STM_DQM_LOG/dqmout_HPGe.log 2>&1 &");
   }
   //LaBr DQM start
   else{
-    std::string commandResponse = StringMacros::exec("nohup python $STM_DQM > $STM_DQM_LOG/dqmout_HPGe.log 2>&1 &");
+    std::string commandResponse = StringMacros::exec("nohup python $STM_DQM > $STM_DQM_LOG/dqmout_LaBr.log 2>&1 &");
   }
 
   CoreSupervisorBase::transitionConfiguring(e);
