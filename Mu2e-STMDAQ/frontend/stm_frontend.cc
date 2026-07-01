@@ -55,6 +55,7 @@ void STMfrontend::close_threads(){
   if (tm) tm.reset();
   if (pool) pool.reset();
   if (om) om.reset();
+  if (cpu) cpu->reset();
 
   return;
 }
@@ -67,6 +68,7 @@ void STMfrontend::shutdown_threads(std::chrono::seconds timeout){
   }
   if (pool) pool.reset();
   if (om) om.reset();
+  if (cpu) cpu->reset();
 }
 
 // Function so ots can call readout reset

@@ -62,6 +62,7 @@ public:
     hw.reset();
     stm.reset();
     signal.reset();
+    cpu->clear_logger();
     logger.reset();
     cpu.reset();
   }

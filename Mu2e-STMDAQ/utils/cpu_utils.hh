@@ -103,6 +103,17 @@ public:
   size_t get_next_core(const std::string& name);
 
   void set_logger(std::shared_ptr<AsyncLogger> l);
+  void clear_logger() {
+    std::lock_guard<std::mutex> lock(log_mutex);
+    logger = nullptr;
+    pending_logs.clear();
+  }
+
+  void reset() {
+    std::lock_guard<std::mutex> lock(tracking_mutex);
+    next_core_id.store(0);
+    used_cores.clear();
+  }
 
   // Destructor
   ~cpu_utils() {
