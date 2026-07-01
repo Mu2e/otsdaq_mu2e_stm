@@ -74,12 +74,12 @@ void Baseline::calc_baseline(std::shared_ptr<DataStruct>& buffer){
     
     // Overflow
     if (sample > max_adc){
-      // Critical error
-      logger->log("Baseline: Error! ADC data has value " +
+      // Warning
+      logger->log("Baseline: Warning! ADC data has value " +
                   std::to_string(sample) +
                   " which is larger than the config max ADC value of " +
-                  std::to_string(max_adc) + ".",0);
-      std::this_thread::sleep_for(std::chrono::seconds(3));
+                  std::to_string(int(max_adc)) + ".",2);
+      //std::this_thread::sleep_for(std::chrono::seconds(3));
       return;
     }
 
@@ -88,10 +88,10 @@ void Baseline::calc_baseline(std::shared_ptr<DataStruct>& buffer){
 
     // Add to histograms
     ++per_buffer_hists[window_index][bin];
-    //    ++hist_counts_window[bin];
+    ++hist_counts_window[bin];
     ++hist_counts_all[bin];
     // Add to counts
-    //    ++total_window;
+    ++total_window;
     ++total_all;
     
   }
@@ -124,8 +124,9 @@ void Baseline::calc_baseline(std::shared_ptr<DataStruct>& buffer){
   ++buffer_count;
   
   // If calculated first full window
+  //if (buffer_count % window_size_buffers == 0){
   if (buffer_count == window_size_buffers){
-    logger->log("Baseline: First " + std::to_string(stm->baseline_config.hist_window_period) +
+    logger->log("Baseline: Last " + std::to_string(stm->baseline_config.hist_window_period) +
                 " s window has baseline value: " + std::to_string(mu0_all) +
                 " ± " + std::to_string(sigma0_all) + " ADCs.",1);
   }
@@ -361,7 +362,7 @@ double Baseline::mode_fraction(const std::vector<uint64_t>& hist_counts,
 
   // Hist counts
   double c_curr;
-  double c_prev = 0;
+  double c_prev = static_cast<double>(hist_counts[mode_bin]);
 
   // Loop through bins from low to high ADC values
   for (int i = mode_bin+1; i < nbins; ++i) {
