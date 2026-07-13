@@ -19,6 +19,8 @@ STMfrontend::STMfrontend() :
     hw = std::make_shared<HardwareManager>(logger,stm);
   }
 
+  core_checkpoint = cpu->checkpoint();
+
   // Instance of operation manager
   if (!stop::should_stop()) om = std::make_shared<OperationManager>(cfg,logger,stm,signal);
   
@@ -55,7 +57,7 @@ void STMfrontend::close_threads(){
   if (tm) tm.reset();
   if (pool) pool.reset();
   if (om) om.reset();
-  if (cpu) cpu->reset();
+  if (cpu) cpu->reset_to(core_checkpoint);
 
   return;
 }
@@ -68,7 +70,7 @@ void STMfrontend::shutdown_threads(std::chrono::seconds timeout){
   }
   if (pool) pool.reset();
   if (om) om.reset();
-  if (cpu) cpu->reset();
+  if (cpu) cpu->reset_to(core_checkpoint);
 }
 
 // Function so ots can call readout reset

@@ -36,6 +36,9 @@ private:
   
   // Hardware manager
   std::shared_ptr<HardwareManager> hw;
+
+  // Persistent cores between run start/stops
+  size_t core_checkpoint;
   
   // Operation Manager
   std::shared_ptr<OperationManager> om;
@@ -64,7 +67,7 @@ public:
     signal.reset();
     cpu->clear_logger();
     logger.reset();
-    cpu.reset();
+    cpu->reset_to(0);
   }
   
   // Start STM DAQ
