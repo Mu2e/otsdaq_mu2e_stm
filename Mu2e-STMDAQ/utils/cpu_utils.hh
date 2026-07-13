@@ -103,16 +103,29 @@ public:
   size_t get_next_core(const std::string& name);
 
   void set_logger(std::shared_ptr<AsyncLogger> l);
+
+  // Clear logger for graceful run transitions
   void clear_logger() {
     std::lock_guard<std::mutex> lock(log_mutex);
     logger = nullptr;
     pending_logs.clear();
   }
 
-  void reset() {
+  // Get the core checkpoint
+  size_t checkpoint() {
+    return next_core_id.load();
+  }
+
+  // After we close operations, remove those cores from list
+  void reset_to(size_t checkpoint) {
     std::lock_guard<std::mutex> lock(tracking_mutex);
-    next_core_id.store(0);
-    used_cores.clear();
+    size_t current = next_core_id.load();
+    for (size_t i = checkpoint; i < current; i++) {
+        size_t logical_core = (starting_core_id + i) % allowed_cores.size();
+	size_t core_id = allowed_cores[logical_core];
+        used_cores.erase(core_id);
+    }
+    next_core_id.store(checkpoint);
   }
 
   // Destructor

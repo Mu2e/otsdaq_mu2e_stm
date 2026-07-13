@@ -95,7 +95,7 @@ size_t cpu_utils::get_next_core(const std::string& name) {
     // Warn if this core has already been used
     if(used_cores.find(core_id) != used_cores.end()){
       log("CPU utils: Warning! Core "+ std::to_string(core_id) +
-	"has already been assigned.",2);
+	" has already been assigned.",2);
     }
     else {
       used_cores.insert(core_id);
