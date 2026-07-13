@@ -27,6 +27,7 @@
 #include "artdaq-core/Data/Fragment.hh"
 #include "artdaq-core/Data/ContainerFragment.hh"
 #include "artdaq-core/Data/ContainerFragmentLoader.hh"
+#include "artdaq-core/Data/MetadataFragment.hh"
 #include "artdaq-core-mu2e/Overlays/FragmentType.hh"
 #include "artdaq-core-mu2e/Overlays/STMFragment.hh"
 #include "fhiclcpp/fwd.h"
@@ -65,6 +66,8 @@ namespace mu2e {
     , events_per_container_(ps.get<size_t>("events_per_container", 500)) // Default number of events per container in getNext()
     , offspill_events_per_container_(ps.get<size_t>("offspill_events_per_container", 100)) // Number of off-spill events per container in getNext()
     , use_spill_condition_(ps.get<bool>("use_spill_condition", false)) // Condition for batching on spill flags
+    , eos_stream_id_(ps.get<uint64_t>("eos_stream_id", 4)) // End-of-subrun marker fragment id
+    , rollover_subrun_interval_(ps.get<uint64_t>("rollover_subrun_interval", 0)) // EWTs per subrun (0 = disabled)
   {
     // Log configuration
     TLOG_DEBUG(1) << "[STM_BR] STMTCPReceiver: Channel = " << chan_ << " | Host = " << host_ << " | Port = " << port_
@@ -698,6 +701,9 @@ namespace mu2e {
     size_t debug_evt_counter = 0;
     const size_t debug_print_every = events_per_container_*5;
 
+    // End of subrun fragment ID
+    const uint64_t eos_frag_id = start_fragment_id_ + eos_stream_id_;
+
     while (true){
 
       if (!batcher_to_builder_queue_->pop(batch)) {
@@ -724,8 +730,12 @@ namespace mu2e {
       container_frag->setSequenceID(batch.container_seq_id);
       container_frag->setFragmentID(batch.container_frag_id);
 
-      artdaq::ContainerFragmentLoader loader(*container_frag,
-                                             FragmentType::STM);
+      //artdaq::ContainerFragmentLoader loader(*container_frag,
+      //                                       FragmentType::STM);
+      auto loader = std::make_unique<artdaq::ContainerFragmentLoader>(
+                      *container_frag, FragmentType::STM);
+
+      bool need_seq_id_for_new_container = false;
 
       // ------------------------------------------------
       // Collect fragments for this batch
@@ -734,8 +744,28 @@ namespace mu2e {
       artdaq::Fragments batch_frags;
       batch_frags.reserve(batch.events.size() * 3);
 
+      // Lambda functino to flush container
+      auto flush_container = [&] {
+	// Don't send empty container
+	if (batch_frags.empty()) {
+          delete container_frag;
+          return;
+        }
+        loader->addFragments(batch_frags);
+        while (!builder_to_getNext_queue_->push(container_frag)) {
+          std::this_thread::yield();
+        }
+        batch_frags.clear();
+      };
+
       for (const auto& e : batch.events)
         {
+	  // If subrun transition in middle of container
+	  if (need_seq_id_for_new_container) {
+            container_frag->setSequenceID(e.event_num);
+            need_seq_id_for_new_container = false;
+          }
+
           ++debug_evt_counter;
           if ( (debug_level_ > 0) && ((debug_evt_counter % debug_print_every) == 0) ) {
             TLOG(TLVL_INFO)
@@ -781,19 +811,50 @@ namespace mu2e {
           process(e.zs,  zs_stream_id_,  zs_frag_count_);
           process(e.ph,  ph_stream_id_,  ph_frag_count_);
 
-        }
+	  // Sub-run transition: just in software for now
+	  const bool sw_subrun_trigger = (rollover_subrun_interval_ > 0) && (e.event_num % rollover_subrun_interval_ == 0);
+	  //if (hw_subrun_trigger || sw_subrun_trigger)
+	  if (sw_subrun_trigger && e.event_num > 0)
+	  {
+	    const auto next_subrun = ++subrun_number_;
+	    if (debug_level_ > 0) {
+	      TLOG(TLVL_INFO) << "Subrun transition "
+				      //"(hw=" << hw_subrun_trigger
+				      << "(sw=" << sw_subrun_trigger
+				      << ") at EWT=" << e.event_num
+				      << " -> subrun " << next_subrun;
+	    }
 
-      // ------------------------------------------------
-      // Add fragments to container
-      // ------------------------------------------------
-      loader.addFragments(batch_frags);
+	    metricMan->sendMetric("SubrunNumber", next_subrun, "subrun", 1,
+                                  artdaq::MetricMode::LastPoint | artdaq::MetricMode::Persist);
 
-      // ------------------------------------------------
-      // Send container to getNext
-      // ------------------------------------------------
-      while (!builder_to_getNext_queue_->push(container_frag)) {
-        std::this_thread::yield();
+	    // Send container to getNext as is
+	    flush_container();
+
+	    // Make and push EOS fragment
+            std::unique_ptr<artdaq::Fragment> eos_frag =
+              artdaq::MetadataFragment::CreateEndOfSubrunFragment(my_rank, seq, next_subrun,eos_frag_id);
+
+            if (eos_frag) {
+	      artdaq::Fragment* eos_raw = eos_frag.release();
+	      while (!builder_to_getNext_queue_->push(eos_raw)) {
+		std::this_thread::yield();
+	      }
+            }
+
+	    // Start a new container for the rest of this batch
+            container_frag = new artdaq::Fragment();
+            container_frag->setFragmentID(batch.container_frag_id);
+            loader = std::make_unique<artdaq::ContainerFragmentLoader>(
+                       *container_frag, FragmentType::STM);
+	    need_seq_id_for_new_container = true;
+	  }
+
       }
+
+      // Send to getNext
+      flush_container();
+
       builder_active_ += (clock::now() - work_start);
       builder_loops_.fetch_add(1, std::memory_order_relaxed);
     }
